@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Common
+build_property.ProjectDir = F:\KaazingChatWebApplication_DockerCompose\Docker\KaazingChatApi\KaazingChatWebApplication\Common\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

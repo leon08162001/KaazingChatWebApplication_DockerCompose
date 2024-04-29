@@ -1,0 +1,15 @@
+docker-compose -f {compose file name} up
+
+docker-compose up
+
+docker compose run --build
+
+Pull all updates:
+(this will just download the images, not do anything else)
+
+docker-compose pull
+
+And then only update the container you want: 
+--no-deps is important to avoid restarting dependencies of your updated containers by mistake.
+
+docker-compose up -d --no-deps name_of_your_container

@@ -1,0 +1,22 @@
+channels.conf
+factories.conf
+groups.conf
+queues.conf
+routes.conf
+topics.conf
+users.conf
+
+tibemsd.conf
+
+docker build -t tibco:8.5.1_active .
+
+docker build -t tibco:8.5.1_passive .
+
+docker build -t tibco:8.5.1 .
+
+docker run -itd --hostname leonnote.asuscomm.com --name leonnote.asuscomm.com -p 7222:7222 -p 7243:7243 tibco:8.5.1
+
+docker run -itd --net mynetwork --hostname leonnote.asuscomm.com --name leonnote.asuscomm.com -p 7222:7222 -p 7243:7243 tibco:8.5.1
+
+docker inspect tibcoems
+

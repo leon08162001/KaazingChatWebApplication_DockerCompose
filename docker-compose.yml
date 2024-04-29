@@ -1,0 +1,64 @@
+version: "3.0"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sql_server
+    hostname: leonpc.asuscomm.com
+    environment:
+      - SA_PASSWORD=1qaz!QAZ
+      - ACCEPT_EULA=Y
+    volumes:
+      - "./DockerVolumes/mssql/data/:/var/opt/mssql/data/"
+      - "./DockerVolumes/mssql/log/:/var/opt/mssql/log/"
+      - "./DockerVolumes/mssql/secrets/:/var/opt/mssql/secrets/"
+      - "./DockerVolumes/mssql/backup/:/var/opt/mssql/backup/"
+    network_mode: bridge
+    ports:
+      - "2433:1433"
+
+  tibcoems:
+    build:
+      context: ./Docker/TibcoEMS/tibco.ems.docker
+      dockerfile: Dockerfile
+    image: tibco:8.5.1
+    container_name: tibcoems
+    hostname: leonpc.asuscomm.com
+    environment:
+      - TZ=Asia/Taipei
+    network_mode: bridge
+    ports:
+      - "7222:7222"
+      - "7243:7243"
+
+  kaazing-gateway:
+    build:
+      context: ./Docker/Kaazing Websocket/kaazing.gateway.docker
+      dockerfile: Dockerfile
+    image: kaazinggateway:5.8.22
+    container_name: kaazingWebsocket
+    hostname: leonpc1.asuscomm.com
+    environment:
+      - TZ=Asia/Taipei
+    network_mode: bridge
+    restart: on-failure:5
+    depends_on:
+      - tibcoems
+    ports:
+      - "8001:8001"
+      - "9001:9001"
+
+  kaazingchatapi:
+    build:
+      context: ./Docker/KaazingChatApi/KaazingChatWebApplication
+      dockerfile: Dockerfile
+    image: kaazingchatapi:v1.0
+    container_name: kaazingchatapi
+    environment:
+      - TZ=Asia/Taipei
+    network_mode: bridge
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+
+

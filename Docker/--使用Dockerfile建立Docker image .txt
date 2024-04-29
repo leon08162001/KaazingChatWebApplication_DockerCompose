@@ -1,0 +1,69 @@
+--使用Dockerfile建立Docker image 
+docker build -t [image名稱] .
+ 
+--檢查Docker Images
+docker Images
+ 
+--執行Containers
+docker run -it -p [LocalPort]:[$ContainerPort] $ImageName
+
+
+
+docker build "D:\大亞電線電纜\AzureDevOps\RelayServer\Dockerfile" -t "relayserver"
+
+docker build -t "relayserver" "D:\大亞電線電纜\AzureDevOps\RelayServer\Dockerfile"
+
+docker build -t relayserver .
+
+docker relayserver
+
+docker load -i relayserver.tarsud
+
+
+--下載docker image
+docker save -o D:\大亞電線電纜\relayserver.tar relayserver:latest
+
+
+azure 建立 Web 應用程式之docker image 來源
+
+---方法一 使用Docker Hub---
+
+--1注册docker hub账号
+
+--2docker hub上创建仓库
+
+--3docker 本地登录
+docker login
+
+--4将容器commit 成镜像
+docker tag <existing-image> <hub-user>/<repo-name>[:<tag>]
+docker tag relayserver leon08162001/tayarelayserver:latest
+
+--5docker push 镜像到docker hub 的仓库
+docker push <hub-user>/<repo-name>:<tag>
+docker push leon08162001/tayarelayserver:latest
+
+
+--6命令验证
+docker inspect leon08162001/tayarelayserver:latest
+
+---方法一 使用Docker Hub---
+
+
+
+---方法二 使用Azure Container Registry---
+
+--登入您的 Azure Container Registry
+docker login <login-server>
+docker login imagerelayserver1.azurecr.io
+
+--azure容器登錄(標記 Docker Image)
+docker tag relayserver:latest <registry-name>.azurecr.io/reservationsystem:latest
+docker tag relayserver:latest imagerelayserver1.azurecr.io/relayserver:latest
+
+--將映像上傳至Azure Container Registry
+docker push <registry-name>.azurecr.io/reservationsystem:latest
+docker push imagerelayserver1.azurecr.io/relayserver:latest
+
+---方法二 使用Azure Container Registry---
+

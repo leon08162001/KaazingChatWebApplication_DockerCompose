@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <appender name="ErrorFile" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="${GATEWAY_LOG_DIRECTORY}/error.log"/>
+        <param name="Append" value="false"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d [%t] %-5p %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d [%t] %-5p %m%n"/>
+        </layout>
+    </appender>
+
+    <logger name="transport">
+        <level value="trace"/>
+    </logger>
+
+    <logger name="com.kaazing.gateway.jms">
+        <level value="trace"/>
+    </logger>
+
+    <logger name= "service.stomp.jms">
+        <level value="trace"/>
+    </logger>
+
+    <logger name= "service.jms">
+        <level value="trace"/>
+    </logger>
+
+    <root>
+        <priority value="info"/>
+        <appender-ref ref="ErrorFile"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</log4j:configuration>

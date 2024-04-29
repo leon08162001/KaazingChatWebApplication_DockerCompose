@@ -1,0 +1,27 @@
+Docker Image 預設位置
+%localappdata%\Docker\wsl
+
+顯示docker使用的硬碟空間
+docker system df
+
+
+#Windows下釋放docker所佔用硬碟空間之方法
+
+docker system prune
+
+Commands
+You’ll want to open PowerShell as an admin and then run these commands:
+
+# Close all WSL terminals and run this to fully shut down WSL.
+wsl.exe --shutdown
+
+# Replace Nick with your Windows user name. This is where Docker stores its VM file.
+cd C:\Users\LeonLee\AppData\Local\Docker\wsl\data
+
+# Compact the Docker Desktop WSL VM file and you're done.
+# NOTE: This may not work with Windows Home edition (read below).
+optimize-vhd -Path .\ext4.vhdx -Mode full
+
+
+#Restart the Lxssmanager service
+LxssManager

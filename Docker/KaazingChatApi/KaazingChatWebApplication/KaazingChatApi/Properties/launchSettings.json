@@ -1,0 +1,71 @@
+{
+  "profiles": {
+    "KaazingChatApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://leonpc.asuscomm.com:8081"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS": {
+      "commandName": "IIS",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    },
+    "WSL": {
+      "commandName": "WSL",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:8081/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "https://localhost:8081",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "distributionName": ""
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://leonpc.asuscomm.com:{ServicePort}/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://+:8080;https://+:8081",
+        "ASPNETCORE_HTTPS_PORT": "8081",
+        "ASPNETCORE_Kestrel__Certificates__Default__Password": "880816",
+        //docker方式
+        //"ASPNETCORE_Kestrel__Certificates__Default__Path": "certs/wildcard.asuscomm.com.pfx"
+        //docker compose方式
+        "ASPNETCORE_Kestrel__Certificates__Default__Path": "/certs/wildcard.asuscomm.com.pfx"
+      },
+      "publishAllPorts": true,
+      "httpPort": 8080,
+      "useSSL": true,
+      "sslPort": 8081
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://leonpc.asuscomm.com:8080",
+      "sslPort": 2443
+    },
+    "iisExpress": {
+      "applicationUrl": "http://leonpc.asuscomm.com:8081",
+      "sslPort": 44301
+    }
+  }
+}

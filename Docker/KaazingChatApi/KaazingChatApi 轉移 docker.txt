@@ -1,0 +1,8 @@
+docker build -t kaazingchatapi:last .
+
+docker run -itd --hostname leonnote.asuscomm.com --name kaazingchatapi -p 8080:8080 -p 8081:8081 kaazingchatapi:last
+
+docker run -itd --name kaazingchatapi -p 8080:8080 -p 8081:8081 kaazingchatapi:last
+
+
+

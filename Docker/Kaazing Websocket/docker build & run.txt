@@ -1,0 +1,8 @@
+docker build -t="kaazing/gateway:5.8.22" .
+
+docker build -t="kaazing/gateway" .
+
+docker run -itd --hostname leonnote1.asuscomm.com --name kaazingWebsocket -p 8001:8001 -p 9001:9001 kaazing/gateway
+
+docker run -itd --net mynetwork --hostname leonnote1.asuscomm.com --name kaazingWebsocket -p 8001:8001 -p 9001:9001 kaazing/gateway
+

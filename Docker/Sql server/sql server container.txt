@@ -1,0 +1,18 @@
+docker pull mcr.microsoft.com/mssql/server:2022-latest
+
+docker run -d --hostname leonnote.asuscomm.com --name sql_server -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=1qaz!QAZ" -p 2433:1433 mcr.microsoft.com/mssql/server:2022-latest
+
+
+Azure Data Studio
+
+
+使用 docker exec 來建立備份資料夾
+docker exec -it sql_server mkdir /var/opt/mssql/backup
+
+
+使用 docker cp 將備份檔案複製到 /var/opt/mssql/backup 目錄中的容器
+docker cp "F:\Database\Backup\Chat-2024327-22-36-24.bak" sql_server:/var/opt/mssql/backup
+
+
+
+

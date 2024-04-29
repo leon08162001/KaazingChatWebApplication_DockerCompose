@@ -1,0 +1,44 @@
+創建 Azure Container Registry
+-g(資源群組): PellokIThomePipelineRG
+-n(Registry名稱): PellokRegistry
+-sku(使用資源): Basic
+
+az acr create -n PellokRegistry -g PellokIThomePipelineRG --sku Basic
+
+設定登入
+az acr update -n pellokregistry -g PellokIThomePipelineRG --admin-enabled true
+
+登入 Azure Container Registry(會要求輸入帳密)
+az acr login --name pellokregistry
+
+標記 Docker Image
+docker tag pellok:v1 pellokregistry.azurecr.io/pellok:v1
+
+上傳 Docker Image
+docker push pellokregistry.azurecr.io/pellok:v1
+
+
+部署成 WebApp
+創建 AppService Plan
+-g(資源群組): PellokIThomePipelineRG
+-n(Plan名稱): ITHomeFrontendPlan
+--is-linux(使用Linux): 使用Linux
+--sku(服務層級): B1
+
+az appservice plan create -g PellokIThomePipelineRG -n ITHomeFrontendPlan --is-linux --sku B1
+
+
+創建 WebApp
+-g(資源群組): PellokIThomePipelineRG
+-p(Plan名稱): ITHomeFrontendPlan
+-n(WebApp名稱): ITHomeFrontendWeb
+-r(部署服務): "NODE|12.9"
+
+az webapp create -g PellokIThomePipelineRG -p ITHomeFrontendPlan -n ITHomeFrontendWeb -r "NODE|12.9" 
+
+更新 WebApp 使用 Container Image
+az webapp config container set --name ITHomeFrontendWeb -g PellokIThomePipelineRG -i pellokregistry.azurecr.io/pellok:v1
+
+
+
+

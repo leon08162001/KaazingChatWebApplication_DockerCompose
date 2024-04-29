@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2007-2015, Kaazing Corporation. All rights reserved.
+
+-->
+<gateway-config xmlns="http://xmlns.kaazing.org/2016/06/gateway">
+  <!--
+  #############################################################################
+  #############################################################################
+                Kaazing WebSocket Gateway Configuration File
+
+  This configuration file identifies all the possible services and associated
+  security and management that flow through Kaazing WebSocket Gateway.
+
+  Refer to the "Setting Up Kaazing WebSocket Gateway" document for basic
+  configuration information. From the table of contents, click "Configuration Element 
+  Index" for a detailed list and links to descriptions of each element in this 
+  configuration file.
+
+  #############################################################################
+  #############################################################################
+  -->
+  <!--
+  Property defaults
+
+  Specify the default values for properties which will be substituted when
+  the Gateway starts. You can replace any values in this configuration file
+  with a property using dollar-sign and curly brace format demonstrated in
+  the <accept> tag of the echo service below. Starting the Gateway replaces
+  all instances of property-name with the value you specify in this section.
+
+  To override property default values, you can specify properties on the Java 
+  command line by setting the GATEWAY_OPTS environment variable before starting 
+  the Gateway. Search the documentation for "Configure Kaazing WebSocket Gateway 
+  Using the GATEWAY_OPTS Environment Variable" for more examples and a list of 
+  the properties you can set.
+  -->
+  <properties>
+    <property>
+      <name>worker1.gateway.hostname</name>
+      <value>WebSocketServer1.asuscomm.com</value>
+    </property>
+    <property>
+      <name>balancer1.gateway.hostname</name>
+      <value>WebSocketBalancer.asuscomm.com</value>
+    </property>
+    <property>
+      <name>balancer1FO1.gateway.hostname</name>
+      <value>WebSocketBalancerFO1.asuscomm.com</value>
+    </property>
+    <property>
+      <name>balancer1FO2.gateway.hostname</name>
+      <value>WebSocketBalancerFO2.asuscomm.com</value>
+    </property>
+    <property>
+      <name>balancer1FO3.gateway.hostname</name>
+      <value>WebSocketBalancerFO3.asuscomm.com</value>
+    </property>
+    <property>
+      <name>worker2.gateway.hostname</name>
+      <value>192.168.177.115</value>
+    </property>
+    <property>
+      <name>balancer2.gateway.hostname</name>
+      <value>192.168.177.115</value>
+    </property>
+    <property>
+      <name>balancer2FO1.gateway.hostname</name>
+      <value>192.168.177.116</value>
+    </property>
+    <property>
+      <name>balancer2FO2.gateway.hostname</name>
+      <value>192.168.177.117</value>
+    </property>
+    <property>
+      <name>balancer2FO3.gateway.hostname</name>
+      <value>192.168.177.118</value>
+    </property>
+    <property>
+      <name>jmsservice.hostname</name>
+      <value>ActiveMQ1.asuscomm.com</value>
+      <!--<value>192.168.177.119</value>-->
+    </property>
+    <property>
+      <name>worker.gateway.ip</name>
+      <value>192.168.29.115</value>
+    </property>
+    <property>
+      <name>gateway.base.port</name>
+      <value>8000</value>
+    </property>
+    <property>
+      <name>gateway.extras.port</name>
+      <value>8001</value>
+    </property>
+    <property>
+      <name>gateway.ssl.port</name>
+      <value>9001</value>
+    </property>
+  </properties>
+  <!-- Cluster service -->
+  <!--<cluster>
+    <name>MyCluster</name>
+    <accept>tcp://${worker2.gateway.hostname}:5942</accept>
+    <connect>udp://224.2.2.44:54327</connect>
+  </cluster>-->
+  <!--
+  #############################################################################
+  #############################################################################
+                       Security configuration
+  #############################################################################
+  #############################################################################
+  -->
+  <!-- Security configuration -->
+  <security>
+    <!--
+    The keystore element is used to configure the keystore that contains
+    encryption keys for secure communications with Kaazing WebSocket Gateway.
+    -->
+    <keystore>
+      <type>JCEKS</type>
+      <file>mykeystore.db</file>
+      <password-file>mykeystore.pw</password-file>
+    </keystore>
+    <!--
+    The truststore element is used to configure the truststore that
+    contains digital certificates for certificate authorities
+    trusted by Kaazing WebSocket Gateway.
+    -->
+    <truststore>
+      <file>truststore.db</file>
+    </truststore>
+    <!--
+    This is the element that associates an authenticated user with a set
+    of authorized roles.
+    -->
+    <realm>
+      <name>Websocket Chat Room</name>
+      <description>Websocket Chat Room</description>
+      <!--
+      This is the element that specifies how authentication of users
+      is undertaken for the realm.
+      -->
+      <authentication>
+        <!--
+        Specifies how the Gateway issues HTTP challenges when
+        unauthorized connections are made. Standard HTTP "Basic"
+        and "Negotiate" are supported, with the Application variants:
+        "Application Basic", and "Application Negotiate".  For custom
+        HTTP challenge schemes, use "Application Token".
+        -->
+        <http-challenge-scheme>Application Basic</http-challenge-scheme>
+        <!--
+        The HTTP items below specify how the Gateway accepts credentials
+        when connections are made.  In addition to the standard HTTP
+        "Authorization" header, the Gateway can access credentials sent in
+        custom HTTP headers, query parameters and cookies.
+        -->
+        <!--
+        <http-header>Custom-Header-Name</http-header>
+        <http-query-parameter>Query-Parameter-Name</http-query-parameter>
+        <http-cookie>Cookie-Name</http-cookie>
+        -->
+        <!--
+        The period of time for which authorized connections
+        remain valid without re-authorizing.
+        -->
+        <authorization-timeout>1800</authorization-timeout>
+        <session-timeout>3600</session-timeout>
+        <!--
+        The login modules below specify how the Gateway communicates
+        with a "user database" to validate user credentials, and
+        to determine a set of authorized roles.
+        -->
+        <login-modules>
+          <!--
+          The login module communicates with a user database to
+          validate user's credentials and to determine a set of
+          authorized roles. By default, the file-based module is used.
+          -->
+          <login-module>
+            <type>file</type>
+            <success>required</success>
+            <options>
+              <file>jaas-config.xml</file>
+            </options>
+          </login-module>
+          <!--
+          The following is an example of an LDAP-based login-module element:
+          -->
+          <!--
+          <login-module>
+            <type>ldap</type>
+            <success>required</success>
+            <options>
+              <userProvider>ldap://ldap-svr/ou=people,dc=example,dc=com</userProvider>
+              <userFilter>(&amp;(uid={USERNAME})(objectClass=inetOrgPerson))</userFilter>
+              <authzIdentity>{EMPLOYEENUMBER}</authzIdentity>
+            </options>
+          </login-module>
+          -->
+          <!--
+          Kaazing WebSocket Gateway also supports a plugin mechanism for integration
+          with custom authentication modules based on the Java LoginModule API.
+          To use a custom authentication module, configure your login-module element
+          as follows:
+          -->
+          <!--
+          <login-module>
+            <type>class:fully-qualified-class-name</type>
+            <success>required</success>
+            <options>
+              .
+              .
+              .
+            </options>
+          </login-module>
+          -->
+        </login-modules>
+      </authentication>
+    </realm>
+    <!-- 
+    The realm used by the Command Center for authentication. The SNMP
+     management service should be the only one to use this realm. 
+    -->
+    <realm>
+      <name>commandcenter</name>
+      <description>Command Center</description>
+      <authentication>
+        <http-challenge-scheme>Application Basic</http-challenge-scheme>
+        <http-cookie>kaazingCommandCenter</http-cookie>
+        <authorization-timeout>1800</authorization-timeout>
+        <login-modules>
+          <!--
+          The login module communicates with a user database to
+          validate user's credentials and to determine a set of
+          authorized roles. By default, the file-based module is used.
+          -->
+          <login-module>
+            <type>file</type>
+            <success>required</success>
+            <options>
+              <file>jaas-config.xml</file>
+            </options>
+          </login-module>
+        </login-modules>
+      </authentication>
+    </realm>
+  </security>
+  <!--
+  #############################################################################
+  #############################################################################
+                            Upgrading Your License
+
+  The developer's version of the Kaazing WebSocket Gateway demo bundle allows
+  only a limited number of concurrent client connections.
+  To upgrade your license, contact sales@kaazing.com.
+  After you place a valid license key in GATEWAY_HOME/license, messages similar
+  to the following example INFO messages display in your shell or command
+  prompt at Gateway startup:
+  INFO  Checking license information
+  INFO    Valid license found for: Joe User, Example Corporation,
+          joe@example.com
+  INFO    License expires on 06 Jun 2044
+  INFO  Starting in licensed mode
+  #############################################################################
+  #############################################################################
+  -->
+  <!--
+  #############################################################################
+  #############################################################################
+                       Additional service configuration
+
+  Note: Proxy services are designed to proxy connections to back-end service.
+  #############################################################################
+  #############################################################################
+  -->
+  <!--
+  jms service
+  See the documentation for information about the jms service.
+
+  Note: When JMS security settings are specified, they take precedence over
+  any browser-supplied credentials.
+  Additional properties can be specified. Refer to the field summary in
+  http://download.oracle.com/javase/7/docs/api/javax/naming/Context.html for a
+  complete list.
+  Kaazing WebSocket Gateway does not enforce any of these property values;
+  it just passes them to the JMS API.
+
+  JMS implementations provide a factory class in their jar files. For example,
+  the Apache ActiveMQ class that ships in the demo bundle is
+  org.apache.activemq.jndi.ActiveMQInitialContextFactory in the jar file
+  activemq-client-5.10.0.jar.
+
+  To use another JMS implementation, copy the implementation's jar file to
+  the GATEWAY_HOME/lib directory and specify the name of the class as the
+  value for the env.java.naming.factory.initial property. Refer to the section
+  of the documentation titled "Integrating with JMS-Compliant Message Brokers"
+  for more information about configuring specific JMS message brokers with
+  Kaazing WebSocket Gateway.
+
+  -->
+  <!-- JMS Balancer service for connections -->
+  <!--<service>
+    <name>JMS balancer1</name>
+    <accept>wss://${balancer1.gateway.hostname}:9001/jms</accept>
+    <type>balancer</type>
+    <accept-options>
+      <wss.bind>${worker1.gateway.hostname}:9001/jms</wss.bind>
+    </accept-options>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.127:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonnote.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.128</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer5.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://127.0.0.1</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://localhost</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.114:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.115</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+  </service>
+  <service>
+    <name>JMS balancer1FO1</name>
+    <accept>wss://${balancer1FO1.gateway.hostname}:9001/jms</accept>
+    <type>balancer</type>
+    <accept-options>
+      <wss.bind>${worker1.gateway.hostname}:9001/jms</wss.bind>
+    </accept-options>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.127:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonnote.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer5.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://127.0.0.1</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://localhost</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.114:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.115</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+  </service>
+  <service>
+    <name>JMS balancer1FO2</name>
+    <accept>wss://${balancer1FO2.gateway.hostname}:9001/jms</accept>
+    <type>balancer</type>
+    <accept-options>
+      <wss.bind>${worker1.gateway.hostname}:9001/jms</wss.bind>
+    </accept-options>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.127:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonnote.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer5.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://127.0.0.1</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://localhost</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.114:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.115</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+  </service>
+  <service>
+    <name>JMS balancer1FO3</name>
+    <accept>wss://${balancer1FO3.gateway.hostname}:9001/jms</accept>
+    <type>balancer</type>
+    <accept-options>
+      <wss.bind>${worker1.gateway.hostname}:9001/jms</wss.bind>
+    </accept-options>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.127:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonnote.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer5.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://127.0.0.1</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://localhost</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.114:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.115</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+  </service>
+
+  <service>
+    <name>JMS balancer2</name>
+    <accept>ws://${balancer2.gateway.hostname}:8001/jms</accept>
+    <type>balancer</type>
+    <accept-options>
+      <ws.bind>${worker2.gateway.hostname}:8001/jms</ws.bind>
+    </accept-options>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.127:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonnote.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.128</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer5.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://127.0.0.1</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://localhost</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.114:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.115</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+  </service>
+  <service>
+    <name>JMS balancer2FO1</name>
+    <accept>ws://${balancer2FO1.gateway.hostname}:8001/jms</accept>
+    <type>balancer</type>
+    <accept-options>
+      <ws.bind>${worker2.gateway.hostname}:8001/jms</ws.bind>
+    </accept-options>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.127:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonnote.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer5.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://127.0.0.1</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://localhost</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.114:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.115</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+  </service>
+  <service>
+    <name>JMS balancer2FO2</name>
+    <accept>ws://${balancer2FO2.gateway.hostname}:8001/jms</accept>
+    <type>balancer</type>
+    <accept-options>
+      <ws.bind>${worker2.gateway.hostname}:8001/jms</ws.bind>
+    </accept-options>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.127:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonnote.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer5.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://127.0.0.1</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://localhost</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.114:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.115</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+  </service>
+  <service>
+    <name>JMS balancer2FO3</name>
+    <accept>ws://${balancer2FO3.gateway.hostname}:8001/jms</accept>
+    <type>balancer</type>
+    <accept-options>
+      <ws.bind>${worker2.gateway.hostname}:8001/jms</ws.bind>
+    </accept-options>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.127:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonnote.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.127:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer5.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://127.0.0.1</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://localhost</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonnote.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://192.168.177.114:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:2443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.115</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketServer1.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://WebSocketBalancer.asuscomm.com:9001</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+  </service>-->
+  <!-- JMS Balancer service for connections -->
+
+  <!-- JMS service -->
+  <service>
+    <name>JMS Service1</name>
+    <description>JMS Service1</description>
+    <accept>wss://maxpc1.asuscomm.com:9001/jms</accept>
+    <!--<balance>wss://${balancer1.gateway.hostname}:9001/jms</balance>
+    <balance>wss://${balancer1FO1.gateway.hostname}:9001/jms</balance>
+    <balance>wss://${balancer1FO2.gateway.hostname}:9001/jms</balance>
+    <balance>wss://${balancer1FO3.gateway.hostname}:9001/jms</balance>-->
+    <!--
+    The "Deploying Apple Push Notification Service (APNs)" section of the
+    documentation discusses this element in more detail.  Alternatively, 
+    search the documentation for "APNS" for more examples and 
+    configuration properties you can set.
+    -->
+    <!--
+    <notify>apns://com.example.MyApp</notify>
+    -->
+    <type>jms</type>
+    <!-- Tibco EMS -->
+    <properties>
+      <!--<connection.factory.name>GenericConnectionFactory</connection.factory.name>-->
+      <connection.factory.name>SecureFactory</connection.factory.name>
+      <connection.security.principal>leon</connection.security.principal>
+      <connection.security.credentials>880816</connection.security.credentials>
+      <env.java.naming.security.principal>leon</env.java.naming.security.principal>
+      <env.java.naming.security.credentials>880816</env.java.naming.security.credentials>
+      <context.lookup.topic.format>dynamicTopics/%s</context.lookup.topic.format>
+      <context.lookup.queue.format>dynamicQueues/%s</context.lookup.queue.format>
+      <env.java.naming.factory.initial>
+        com.tibco.tibjms.naming.TibjmsInitialContextFactory
+      </env.java.naming.factory.initial>
+      <!--<env.java.naming.provider.url>tcp://maxpc.asuscomm.com:7222</env.java.naming.provider.url>-->
+      <!--<env.java.naming.provider.url>ssl://maxpc.asuscomm.com:7243,ssl://maxpc.asuscomm.com:7245</env.java.naming.provider.url>-->
+      <env.java.naming.provider.url>ssl://maxpc.asuscomm.com:7243</env.java.naming.provider.url>
+      <env.com.tibco.tibjms.naming.security_protocol>ssl</env.com.tibco.tibjms.naming.security_protocol>
+      <env.com.tibco.tibjms.naming.ssl_trusted_certs>/etc/secret/wildcard.asuscomm.com.cert.pem</env.com.tibco.tibjms.naming.ssl_trusted_certs>     
+      <env.com.tibco.tibjms.naming.ssl_enable_verify_hostname>true</env.com.tibco.tibjms.naming.ssl_enable_verify_hostname>
+      <env.com.tibco.tibjms.naming.ssl_enable_verify_host>ture</env.com.tibco.tibjms.naming.ssl_enable_verify_host>
+      <env.com.tibco.tibjms.naming.ssl_expected_hostname>*.asuscomm.com</env.com.tibco.tibjms.naming.ssl_expected_hostname>
+      <env.com.tibco.tibjms.naming.ssl_trace>true</env.com.tibco.tibjms.naming.ssl_trace>
+      <destination.strategy>session</destination.strategy>
+      <conflation.threshold>1000</conflation.threshold>
+    </properties>
+    <!-- ActiveMQ -->
+    <!--<properties>
+  	<connection.security.principal>leon</connection.security.principal>
+    <connection.security.credentials>880816</connection.security.credentials>
+    <env.java.naming.security.principal>leon</env.java.naming.security.principal>
+    <env.java.naming.security.credentials>880816</env.java.naming.security.credentials>
+   	<connection.factory.name>ConnectionFactory</connection.factory.name>
+    <context.lookup.topic.format>dynamicTopics/%s</context.lookup.topic.format>
+    <context.lookup.queue.format>dynamicQueues/%s</context.lookup.queue.format>
+    <env.java.naming.factory.initial>
+      org.apache.activemq.jndi.ActiveMQInitialContextFactory
+    </env.java.naming.factory.initial>
+    <env.java.naming.provider.url>failover:(ssl://maxpc.asuscomm.com:62618,ssl://maxpc.asuscomm.com:62628)</env.java.naming.provider.url>
+    <destination.strategy>session</destination.strategy>
+    <conflation.threshold>1000</conflation.threshold>
+  </properties>-->
+    <!--
+    The "Deploying Apple Push Notification Service (APNs)" topic
+    discusses this element in more detail.  Alternatively, search the
+    documentation for "APNS" for more examples and configuration properties
+    you can set.
+    -->
+    <!--
+    <notify-options>
+      <apns.notify.transport>ssl://gateway.push.apple.com:2195</apns.notify.transport>
+      <apns.feedback.transport>ssl://feedback.push.apple.com:2196</apns.feedback.transport>
+    </notify-options>
+    -->
+    <realm-name>Websocket Chat Room</realm-name>
+    <authorization-constraint>
+      <require-role>AUTHORIZED</require-role>
+    </authorization-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://maxpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://maxpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+  </service>
+
+  <service>
+    <name>JMS Service2</name>
+    <description>JMS Service2</description>
+    <accept>ws://maxpc1.asuscomm.com:8001/jms</accept>
+    <!--<balance>ws://${balancer2.gateway.hostname}:8001/jms</balance>
+    <balance>ws://${balancer2FO1.gateway.hostname}:8001/jms</balance>
+    <balance>ws://${balancer2FO2.gateway.hostname}:8001/jms</balance>
+    <balance>ws://${balancer2FO3.gateway.hostname}:8001/jms</balance>-->
+    <!--
+    The "Deploying Apple Push Notification Service (APNs)" section of the
+    documentation discusses this element in more detail.  Alternatively, 
+    search the documentation for "APNS" for more examples and 
+    configuration properties you can set.
+    -->
+    <!--
+    <notify>apns://com.example.MyApp</notify>
+    -->
+    <type>jms</type>
+    <!-- Tibco EMS -->
+    <properties>
+      <!--<connection.factory.name>GenericConnectionFactory</connection.factory.name>-->
+      <connection.factory.name>SecureFactory</connection.factory.name>
+      <connection.security.principal>leon</connection.security.principal>
+      <connection.security.credentials>880816</connection.security.credentials>
+      <env.java.naming.security.principal>leon</env.java.naming.security.principal>
+      <env.java.naming.security.credentials>880816</env.java.naming.security.credentials>
+      <context.lookup.topic.format>dynamicTopics/%s</context.lookup.topic.format>
+      <context.lookup.queue.format>dynamicQueues/%s</context.lookup.queue.format>
+      <env.java.naming.factory.initial>
+        com.tibco.tibjms.naming.TibjmsInitialContextFactory
+      </env.java.naming.factory.initial>
+      <!--<env.java.naming.provider.url>tcp://maxpc.asuscomm.com:7222</env.java.naming.provider.url>-->
+      <!--<env.java.naming.provider.url>ssl://maxpc.asuscomm.com:7243,ssl://maxpc.asuscomm.com:7245</env.java.naming.provider.url>-->
+      <env.java.naming.provider.url>ssl://maxpc.asuscomm.com:7243</env.java.naming.provider.url>
+      <env.com.tibco.tibjms.naming.security_protocol>ssl</env.com.tibco.tibjms.naming.security_protocol>
+      <env.com.tibco.tibjms.naming.ssl_trusted_certs>/etc/secret/wildcard.asuscomm.com.cert.pem</env.com.tibco.tibjms.naming.ssl_trusted_certs>
+      <env.com.tibco.tibjms.naming.ssl_enable_verify_hostname>true</env.com.tibco.tibjms.naming.ssl_enable_verify_hostname>
+      <env.com.tibco.tibjms.naming.ssl_enable_verify_host>ture</env.com.tibco.tibjms.naming.ssl_enable_verify_host>
+      <env.com.tibco.tibjms.naming.ssl_expected_hostname>*.asuscomm.com</env.com.tibco.tibjms.naming.ssl_expected_hostname>
+      <env.com.tibco.tibjms.naming.ssl_trace>true</env.com.tibco.tibjms.naming.ssl_trace>
+      <destination.strategy>session</destination.strategy>
+      <conflation.threshold>1000</conflation.threshold>
+    </properties>
+    <!-- ActiveMQ -->
+    <!--<properties>
+  	<connection.security.principal>leon</connection.security.principal>
+    <connection.security.credentials>880816</connection.security.credentials>
+    <env.java.naming.security.principal>leon</env.java.naming.security.principal>
+    <env.java.naming.security.credentials>880816</env.java.naming.security.credentials>
+   	<connection.factory.name>ConnectionFactory</connection.factory.name>
+    <context.lookup.topic.format>dynamicTopics/%s</context.lookup.topic.format>
+    <context.lookup.queue.format>dynamicQueues/%s</context.lookup.queue.format>
+    <env.java.naming.factory.initial>
+      org.apache.activemq.jndi.ActiveMQInitialContextFactory
+    </env.java.naming.factory.initial>
+    <env.java.naming.provider.url>failover:(ssl://maxpc.asuscomm.com:62618,ssl://maxpc.asuscomm.com:62628)</env.java.naming.provider.url>
+    <destination.strategy>session</destination.strategy>
+    <conflation.threshold>1000</conflation.threshold>
+  </properties>-->
+    <!--
+    The "Deploying Apple Push Notification Service (APNs)" topic
+    discusses this element in more detail.  Alternatively, search the
+    documentation for "APNS" for more examples and configuration properties
+    you can set.
+    -->
+    <!--
+    <notify-options>
+      <apns.notify.transport>ssl://gateway.push.apple.com:2195</apns.notify.transport>
+      <apns.feedback.transport>ssl://feedback.push.apple.com:2196</apns.feedback.transport>
+    </notify-options>
+    -->
+    <realm-name>Websocket Chat Room</realm-name>
+    <authorization-constraint>
+      <require-role>AUTHORIZED</require-role>
+    </authorization-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://192.168.177.114:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>http://leonpc.asuscomm.com:8080</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://leonpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://maxpc.asuscomm.com:8081</allow-origin>
+    </cross-site-constraint>
+    <cross-site-constraint>
+      <allow-origin>https://maxpc.asuscomm.com:1443</allow-origin>
+    </cross-site-constraint>
+  </service>
+  <!-- JMS service -->
+  <!-- 
+  JMX Management service.
+  -->
+  <service>
+    <name>JMX Management</name>
+    <description>JMX management service</description>
+    <type>management.jmx</type>
+    <properties>
+      <connector.server.address>jmx://maxpc1.asuscomm.com:1010/</connector.server.address>
+    </properties>
+    <realm-name>Websocket Chat Room</realm-name>
+    <authorization-constraint>
+      <require-role>ADMINISTRATOR</require-role>
+    </authorization-constraint>
+  </service>
+  <!--
+  #############################################################################
+  #############################################################################
+                             Service Defaults
+  #############################################################################
+  #############################################################################
+  -->
+  <!--
+  The accept element in a service is frequently sufficient for the service to
+  receive messages and requests. However, sometimes the value of the accept
+  element does not match the physical description of the host. For example, the
+  Gateway may be behind a load balancer or in a cloud environment, in which case
+  its local network information may not match the settings specified by the
+  accept element.
+
+  For instance, your service may accept on ws://www.example.com but that
+  hostname resolves to the IP address of the load balancer, not the Gateway
+  host. In such a case, you can configure the Gateway using the {protocol}.bind
+  element, which enables you to bind the address specified in the accept element
+  to an internal address (where the address maps in your network). This option
+  provides a choice of binding the address to a specific port or hostname and
+  port (if you specify a hostname here, you must specify a port).
+
+  From the documentation table of contents, search for the document 
+  "Integrate Kaazing WebSocket Gateway into an Internal Network" for more information.
+
+  You can configure default values that apply to all services. Elements and
+  values you specify in individual services override the defaults you specify
+  in this section. The following list shows the service configurations
+  you can specify in this section:
+
+    * Accept Options
+
+      - SSL Encryption
+        The SSL encryption can be in one of two forms:
+
+          <ssl.encryption>enabled</ssl.encryption>
+        or
+          <ssl.encryption>disabled</ssl.encryption>
+
+        The default is <ssl.encryption>enabled</ssl.encryption> so does not need to be
+        explicitly set if there is no ssl.encryption specified.
+
+      - Protocol binds
+        These are in the form:
+
+        <{protocol}.bind>[hostname:]port</{protocol}.bind>
+
+        {protocol} is one of ws, wss, http, https, ssl, or tcp. In the value,
+        hostname is optional, but port is required. If a hostname (or IP
+        address) is not specified, then the Gateway will bind to the wildcard
+        address (0.0.0.0) using the given port. Binding to the wildcard address
+        means the Gateway will listen on all interfaces of the host.
+
+        If there are multiple accepts on a service, each using different
+        protocols, then each protocol that needs to be bound must be explicitly
+        bound. For example:
+
+        <service>
+          <accept>http://192.168.10.25:8000/echo</accept>
+          <accept>ws://192.168.10.25:8001/echo</accept>
+          <accept-options>
+            <http.bind>80</http.bind>
+            <ws.bind>443</ws.bind>
+          </accept-options>
+        </service>
+
+     - Maximum WebSocket message size
+        By default, the maximum size of data permitted in an incoming WebSocket
+        frame is 128 kilobytes. 
+		From the documentation table of contents, search for "maximum.message.size" 
+		for more information.
+        You can change the maximum incoming data size over
+        ws and wss by setting the following accept-option:
+
+        <ws.maximum.message.size>64k</ws.maximum.message.size>
+
+      - HTTP(S) keep-alive timeout
+        This is the number of seconds the Gateway will wait for a subsequent request
+        on an HTTP or HTTPS connection before closing the connection to conserve
+        resources.
+		From the documentation table of contents, search for "http.keepalive.timeout" 
+		for more information.
+		The default value is 30 seconds. You can change this value by setting
+        the following accept-option:
+
+        <http.keepalive.timeout>120</http.keepalive.timeout>
+
+      An example for setting service defaults (turning SSL encryption off, binding each
+      protocol, reducing the limit for incoming WebSocket frame size and increasing the
+      timeout for HTTP connections) is as follows. Note that in this example both ws
+      and http are bound to port 80. This works because they are compatible protocols.
+      Similarly, wss and https can both be bound to the same port because they are
+      compatible protocols. However, if you try to bind incompatible protocols to the
+      same port, you will receive a port conflict error on Gateway startup. For instance,
+      you cannot bind ws and https to the same port.
+
+      <service-defaults>
+        <accept-options>
+          <ssl.encryption>disabled</ssl.encryption>
+          <ws.bind>80</ws.bind>
+          <wss.bind>192.168.10.25:443</wss.bind>
+          <http.bind>192.168.10.25:80</http.bind>
+          <https.bind>192.168.10.25:443</https.bind>
+          <tcp.bind>192.168.10.25:8075</tcp.bind>
+          <ws.maximum.message.size>32k</ws.maximum.message.size>
+          <http.keepalive.timeout>60</http.keepalive.timeout>
+        </accept-options>
+      </service-defaults>
+
+    * MIME-type Mappings
+
+      A service can return files of various types to a client.  Generally, HTTP
+      mandates that a response containing a file also specify a Content-Type
+      header describing the file contents.  You may use a <mime-mapping> tag to specify
+      the Content-Type value to be returned for files with a particular name extension.
+      For example:
+
+      <mime-mapping>
+        <extension>png</extension>
+        <mime-type>image/png</mime-type>
+      </mime-mapping>
+      <mime-mapping>
+        <extension>html</extension>
+        <mime-type>text/html</mime-type>
+      </mime-mapping>
+
+      This example indicates that for files with names ending in '.png', the header 
+      'Content-Type: image/png' should be returned by the Gateway, and 'Content-Type: text/html'
+      should be returned for .html files. Mappings can be specified in the both the
+      <service-defaults> block and in any <service> blocks.  If a mapping for a given extension
+      is specified in both the <service-defaults> block and a <service> block, the <service>-level
+      mapping will be used when providing files from that service.
+
+      An initial set of mappings is provided in <service-defaults> below, and should be edited
+      as needed, but not removed. If specified in <service-defaults>, all <mime-mapping> blocks
+      must come after any <accept-options>. If specified in <service>, all <mime-mapping> blocks
+      must come just before any <cross-site-constraint> blocks.
+  -->
+  <service-defaults>
+    <accept-options>
+      <!--<ws.bind>${gateway.extras.port}</ws.bind>
+      <http.bind>${gateway.extras.port}</http.bind>
+      <wss.bind>${gateway.ssl.port}</wss.bind>
+      <https.bind>${gateway.ssl.port}</https.bind>-->
+      <ws.maximum.message.size>128M</ws.maximum.message.size>
+    </accept-options>
+    <mime-mapping>
+      <extension>html</extension>
+      <mime-type>text/html</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>htm</extension>
+      <mime-type>text/html</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>js</extension>
+      <mime-type>text/javascript</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>png</extension>
+      <mime-type>image/png</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>gif</extension>
+      <mime-type>image/gif</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>jpg</extension>
+      <mime-type>image/jpeg</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>jpeg</extension>
+      <mime-type>image/jpeg</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>svg</extension>
+      <mime-type>image/svg+xml</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>css</extension>
+      <mime-type>text/css</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>swf</extension>
+      <mime-type>application/x-shockwave-flash</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>xap</extension>
+      <mime-type>application/x-silverlight-app</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>htc</extension>
+      <mime-type>text/x-component</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>jnlp</extension>
+      <mime-type>application/x-java-jnlp-file</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>manifest</extension>
+      <mime-type>text/cache-manifest</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>appcache</extension>
+      <mime-type>text/cache-manifest</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>vtt</extension>
+      <mime-type>text/vtt</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+      <extension>aspx</extension>
+      <mime-type>text/html</mime-type>
+    </mime-mapping>
+  </service-defaults>
+  <!--
+  #############################################################################
+  #############################################################################
+                            Do not remove closing element
+  #############################################################################
+  #############################################################################
+  -->
+</gateway-config>
+
