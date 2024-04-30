@@ -12,6 +12,7 @@
     <link href='https://unpkg.com/emoji.css/dist/emoji.min.css' rel='stylesheet' />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/buttons.css" />
+    <script src="lib/client/javascript/HackTimer.js" type="text/javascript"></script>
     <script src="lib/client/javascript/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="lib/client/javascript/moment.min.js" type="text/javascript"></script>
     <script src="lib/client/javascript/browser-detect.umd.js" type="text/javascript"></script>
