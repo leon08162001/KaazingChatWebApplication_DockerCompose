@@ -11,10 +11,12 @@
 
 4.將Docker\KaazingChatApi\KaazingChatWebApplication\KaazingChatApi 資料夾下的 common.ini的內容裡包含leonpc1的字樣改成另外的名稱(如maxpc1)
 
-5.將Docker\KaazingChatApi\KaazingChatWebApplication\KaazingChatWebApplication 資料夾建構為IIS web應用程式,port:1443,https,憑證等設定
+5.使用MMC加入憑證管理員後,將CertManager 資料夾下的ca.cer、Intermediate.cer、wildcard.asuscomm.com.pfx 分別匯入到受信任的根憑證授權單位、中繼憑證授權單位、個人憑證管理區
 
-6.將Docker\KaazingChatApi\KaazingChatWebApplication\KaazingChatWebApplication\lib\client\javascript 資料夾下的 WebChat.js的內容裡包含leonpc的字樣改成另外的名稱(如maxpc),
+6.將Docker\KaazingChatApi\KaazingChatWebApplication\KaazingChatWebApplication 資料夾建構為IIS web應用程式,port:1443,https,憑證等設定
 
-7.將Docker\KaazingChatApi\KaazingChatWebApplication\KaazingChatWebApplication 資料夾下的 Web.config的內容裡包含leonpc的字樣改成另外的名稱(如maxpc),common.ini的內容裡包含leonpc1的字樣改成另外的名稱(如maxpc1)
+7.將Docker\KaazingChatApi\KaazingChatWebApplication\KaazingChatWebApplication\lib\client\javascript 資料夾下的 WebChat.js的內容裡包含leonpc的字樣改成另外的名稱(如maxpc),
 
-8.修改C:\Windows\System32\drivers\etc 資料夾下的 hosts檔 加入IP和domain name對應
+8.將Docker\KaazingChatApi\KaazingChatWebApplication\KaazingChatWebApplication 資料夾下的 Web.config的內容裡包含leonpc的字樣改成另外的名稱(如maxpc),common.ini的內容裡包含leonpc1的字樣改成另外的名稱(如maxpc1)
+
+9.修改C:\Windows\System32\drivers\etc 資料夾下的 hosts檔 加入IP和domain name對應
