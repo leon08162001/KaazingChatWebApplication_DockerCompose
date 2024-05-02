@@ -468,9 +468,9 @@ MessageClient.prototype = (function () {
                     messageObj.setStringProperty("totalSequence", quotient.toString());
                     messageObj.setStringProperty("datatype", file.type);
                     messageObj.setJMSType("file");
-                    console.log("file: " + fileName + "(section：)" + count.toString() + " has been handled(" + new Date().toLocaleString("en-TW", { timeZone: 'asia/Taipei' }) + ")")
                     try {
                         topicOrQueueProducer.send(messageObj, null);
+                        console.log("file: " + fileName + "(section：" + count.toString() + ") has been sended(" + new Date().toLocaleString("en-TW", { timeZone: 'asia/Taipei' }) + ")");
                     }
                     catch (e) {
                         handleException(e);

@@ -883,7 +883,7 @@
   <service>
     <name>JMS Service1</name>
     <description>JMS Service1</description>
-    <accept>wss://maxpc1.asuscomm.com:9001/jms</accept>
+    <accept>wss://leonpc1.asuscomm.com:9001/jms</accept>
     <!--<balance>wss://${balancer1.gateway.hostname}:9001/jms</balance>
     <balance>wss://${balancer1FO1.gateway.hostname}:9001/jms</balance>
     <balance>wss://${balancer1FO2.gateway.hostname}:9001/jms</balance>
@@ -911,9 +911,9 @@
       <env.java.naming.factory.initial>
         com.tibco.tibjms.naming.TibjmsInitialContextFactory
       </env.java.naming.factory.initial>
-      <!--<env.java.naming.provider.url>tcp://maxpc.asuscomm.com:7222</env.java.naming.provider.url>-->
-      <!--<env.java.naming.provider.url>ssl://maxpc.asuscomm.com:7243,ssl://maxpc.asuscomm.com:7245</env.java.naming.provider.url>-->
-      <env.java.naming.provider.url>ssl://maxpc.asuscomm.com:7243</env.java.naming.provider.url>
+      <!--<env.java.naming.provider.url>tcp://leonpc.asuscomm.com:7222</env.java.naming.provider.url>-->
+      <!--<env.java.naming.provider.url>ssl://leonpc.asuscomm.com:7243,ssl://leonpc.asuscomm.com:7245</env.java.naming.provider.url>-->
+      <env.java.naming.provider.url>ssl://leonpc.asuscomm.com:7243</env.java.naming.provider.url>
       <env.com.tibco.tibjms.naming.security_protocol>ssl</env.com.tibco.tibjms.naming.security_protocol>
       <env.com.tibco.tibjms.naming.ssl_trusted_certs>/etc/secret/wildcard.asuscomm.com.cert.pem</env.com.tibco.tibjms.naming.ssl_trusted_certs>     
       <env.com.tibco.tibjms.naming.ssl_enable_verify_hostname>true</env.com.tibco.tibjms.naming.ssl_enable_verify_hostname>
@@ -921,7 +921,10 @@
       <env.com.tibco.tibjms.naming.ssl_expected_hostname>*.asuscomm.com</env.com.tibco.tibjms.naming.ssl_expected_hostname>
       <env.com.tibco.tibjms.naming.ssl_trace>true</env.com.tibco.tibjms.naming.ssl_trace>
       <destination.strategy>session</destination.strategy>
-      <conflation.threshold>1000</conflation.threshold>
+      <conflation.threshold>5000</conflation.threshold>
+      <maximum.conflation.cache.size>5000</maximum.conflation.cache.size>
+      <maximum.pending.acknowledgments>5000</maximum.pending.acknowledgments>
+      <maximum.pending.sends>5000</maximum.pending.sends>
     </properties>
     <!-- ActiveMQ -->
     <!--<properties>
@@ -935,7 +938,7 @@
     <env.java.naming.factory.initial>
       org.apache.activemq.jndi.ActiveMQInitialContextFactory
     </env.java.naming.factory.initial>
-    <env.java.naming.provider.url>failover:(ssl://maxpc.asuscomm.com:62618,ssl://maxpc.asuscomm.com:62628)</env.java.naming.provider.url>
+    <env.java.naming.provider.url>failover:(ssl://leonpc.asuscomm.com:62618,ssl://leonpc.asuscomm.com:62628)</env.java.naming.provider.url>
     <destination.strategy>session</destination.strategy>
     <conflation.threshold>1000</conflation.threshold>
   </properties>-->
@@ -978,7 +981,7 @@
   <service>
     <name>JMS Service2</name>
     <description>JMS Service2</description>
-    <accept>ws://maxpc1.asuscomm.com:8001/jms</accept>
+    <accept>ws://leonpc1.asuscomm.com:8001/jms</accept>
     <!--<balance>ws://${balancer2.gateway.hostname}:8001/jms</balance>
     <balance>ws://${balancer2FO1.gateway.hostname}:8001/jms</balance>
     <balance>ws://${balancer2FO2.gateway.hostname}:8001/jms</balance>
@@ -1006,9 +1009,9 @@
       <env.java.naming.factory.initial>
         com.tibco.tibjms.naming.TibjmsInitialContextFactory
       </env.java.naming.factory.initial>
-      <!--<env.java.naming.provider.url>tcp://maxpc.asuscomm.com:7222</env.java.naming.provider.url>-->
-      <!--<env.java.naming.provider.url>ssl://maxpc.asuscomm.com:7243,ssl://maxpc.asuscomm.com:7245</env.java.naming.provider.url>-->
-      <env.java.naming.provider.url>ssl://maxpc.asuscomm.com:7243</env.java.naming.provider.url>
+      <!--<env.java.naming.provider.url>tcp://leonpc.asuscomm.com:7222</env.java.naming.provider.url>-->
+      <!--<env.java.naming.provider.url>ssl://leonpc.asuscomm.com:7243,ssl://leonpc.asuscomm.com:7245</env.java.naming.provider.url>-->
+      <env.java.naming.provider.url>ssl://leonpc.asuscomm.com:7243</env.java.naming.provider.url>
       <env.com.tibco.tibjms.naming.security_protocol>ssl</env.com.tibco.tibjms.naming.security_protocol>
       <env.com.tibco.tibjms.naming.ssl_trusted_certs>/etc/secret/wildcard.asuscomm.com.cert.pem</env.com.tibco.tibjms.naming.ssl_trusted_certs>
       <env.com.tibco.tibjms.naming.ssl_enable_verify_hostname>true</env.com.tibco.tibjms.naming.ssl_enable_verify_hostname>
@@ -1016,7 +1019,10 @@
       <env.com.tibco.tibjms.naming.ssl_expected_hostname>*.asuscomm.com</env.com.tibco.tibjms.naming.ssl_expected_hostname>
       <env.com.tibco.tibjms.naming.ssl_trace>true</env.com.tibco.tibjms.naming.ssl_trace>
       <destination.strategy>session</destination.strategy>
-      <conflation.threshold>1000</conflation.threshold>
+      <conflation.threshold>5000</conflation.threshold>
+      <maximum.conflation.cache.size>5000</maximum.conflation.cache.size>
+      <maximum.pending.acknowledgments>5000</maximum.pending.acknowledgments>
+      <maximum.pending.sends>5000</maximum.pending.sends>
     </properties>
     <!-- ActiveMQ -->
     <!--<properties>
@@ -1030,7 +1036,7 @@
     <env.java.naming.factory.initial>
       org.apache.activemq.jndi.ActiveMQInitialContextFactory
     </env.java.naming.factory.initial>
-    <env.java.naming.provider.url>failover:(ssl://maxpc.asuscomm.com:62618,ssl://maxpc.asuscomm.com:62628)</env.java.naming.provider.url>
+    <env.java.naming.provider.url>failover:(ssl://leonpc.asuscomm.com:62618,ssl://leonpc.asuscomm.com:62628)</env.java.naming.provider.url>
     <destination.strategy>session</destination.strategy>
     <conflation.threshold>1000</conflation.threshold>
   </properties>-->
@@ -1078,7 +1084,7 @@
     <description>JMX management service</description>
     <type>management.jmx</type>
     <properties>
-      <connector.server.address>jmx://maxpc1.asuscomm.com:1010/</connector.server.address>
+      <connector.server.address>jmx://leonpc1.asuscomm.com:1010/</connector.server.address>
     </properties>
     <realm-name>Websocket Chat Room</realm-name>
     <authorization-constraint>

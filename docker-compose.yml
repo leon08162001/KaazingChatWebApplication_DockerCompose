@@ -27,6 +27,8 @@ services:
     environment:
       - TZ=Asia/Taipei
     network_mode: bridge
+    depends_on:
+      - sqlserver
     ports:
       - "7222:7222"
       - "7243:7243"
@@ -57,6 +59,8 @@ services:
     environment:
       - TZ=Asia/Taipei
     network_mode: bridge
+    depends_on:
+      - kaazing-gateway
     ports:
       - "8080:8080"
       - "8081:8081"

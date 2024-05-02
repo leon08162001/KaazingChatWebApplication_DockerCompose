@@ -200,7 +200,7 @@ var handleMessage = function (uiObj, message) {
             ////傳送訊息(透過API再連結到websocket)
             //sendAjaxMessage($.trim($("#listenFrom").val()).toUpperCase() + "：" + link.innerHTML + receivedHtml + "(" + messageTime + ")", ajaxMessageTypeEnum.receive, message.id);
             //傳送訊息(直接連結到websocket)
-            //messageClient.sendMessage($.trim($("#listenFrom").val()).toUpperCase() + "：" + link.innerHTML + receivedHtml + "(" + messageTime + ")", messageClient.sendName);
+            messageClient.sendMessage($.trim($("#listenFrom").val()).toUpperCase() + "：" + link.innerHTML + receivedHtml + "(" + messageTime + ")", messageClient.sendName);
             //加入接收檔案後回覆發送方已收檔的訊息
 
             //added by leonlee 20210526
@@ -1789,7 +1789,6 @@ $(document).ready(function () {
             $.each(senders, async function (i) {
                 for (j = 0; j < Number($("#times").val()); j++) {
                     for (var k = 0; k < files.length; k++) {
-                        sleep(50);
                         await messageClient.sendFileByChunk(files[k].name, files[k], senders[i]);
                         //await messageClient.sendFile(files[k].name, files[k], senders[i]);
                         //messageClient.sendFileByChunk1(files[k].name, files[k], senders[i]);
@@ -1801,7 +1800,6 @@ $(document).ready(function () {
         else {
             for (j = 0; j < Number($("#times").val()); j++) {
                 for (var k = 0; k < files.length; k++) {
-                    sleep(50);
                     await messageClient.sendFileByChunk(files[k].name, files[k], messageClient.sendName);
                     //await messageClient.sendFile(files[k].name, files[k], messageClient.sendName);
                     //messageClient.sendFileByChunk1(files[k].name, files[k], messageClient.sendName);
