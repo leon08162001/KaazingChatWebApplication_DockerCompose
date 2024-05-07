@@ -1,0 +1,128 @@
+2023-10-31 13:50:13,366 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to X(W：<pre class="defaultfont" style="display: inline;">WWWW</pre><span class="tabbed" id="4288642f-d8dd-4f5d-a282-84fb034e6250">(10-31 13:50:13)</span>)
+2023-10-31 13:50:13,412 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-31 13:50:13,460 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">WWWW</pre><span class="tabbed" id="4288642f-d8dd-4f5d-a282-84fb034e6250">(10-31 13:50:13)</span><span class="tabbed">已讀</span>(10-31 13:50:13))
+2023-10-31 13:50:13,460 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 14:17:19,088 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file message to Z(<span id="9a35e60b-2f8a-4486-9e6c-e22d39e16b57">W：傳送檔案中，請稍後...(10-31 14:17:19)</span>)
+2023-10-31 14:17:19,088 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 14:17:19,182 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to <SPAN ID="9A35E60B-2F8A-4486-9E6C-E22D39E16B57">W(<span id="9a35e60b-2f8a-4486-9e6c-e22d39e16b57">W：傳送檔案中，請稍後...(10-31 14:17:19)</span><span class="tabbed">已讀</span>(10-31 14:17:19))
+2023-10-31 14:17:19,182 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 14:17:19,371 [76] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Z(1.jpg)
+2023-10-31 14:17:19,371 [76] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(1.jpg) from KaazingChatWebApplication
+2023-10-31 14:17:19,386 [76] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Z(2.jpg)
+2023-10-31 14:17:19,386 [76] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2.jpg) from KaazingChatWebApplication
+2023-10-31 14:17:19,684 [54] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to W(Z：1.jpg<span class="tabbed">已收</span>(10-31 14:17:19))
+2023-10-31 14:17:19,684 [54] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 14:17:19,684 [50] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to W(Z：2.jpg<span class="tabbed">已收</span>(10-31 14:17:19))
+2023-10-31 14:17:19,684 [50] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 14:48:13,665 [54] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 接近關鍵字 'AND' 之處的語法不正確。
+System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'AND' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+ClientConnectionId:84cc364c-a8c8-46ac-bc3c-722f47fbb955
+Error Number:156,State:1,Class:15
+2023-10-31 14:48:13,665 [40] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 接近關鍵字 'AND' 之處的語法不正確。
+System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'AND' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+ClientConnectionId:241f99d4-75f1-4bbc-89d7-b167a7081165
+Error Number:156,State:1,Class:15
+2023-10-31 15:05:47,901 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a message to Z(Y：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="501602f6-9892-4c29-a4c9-9c7cc1981c9e">(10-31 15:05:47)</span>)
+2023-10-31 15:05:47,933 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-31 15:05:47,996 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to Y(Y：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="501602f6-9892-4c29-a4c9-9c7cc1981c9e">(10-31 15:05:47)</span><span class="tabbed">已讀</span>(10-31 15:05:47))
+2023-10-31 15:05:47,996 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:05:58,512 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a message to Y(Z：<pre class="defaultfont" style="display: inline;">zzz</pre><span class="tabbed" id="b22dc991-0c47-4e36-9105-1d5687412939">(10-31 15:05:58)</span>)
+2023-10-31 15:05:58,512 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-31 15:05:58,559 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to Z(Z：<pre class="defaultfont" style="display: inline;">zzz</pre><span class="tabbed" id="b22dc991-0c47-4e36-9105-1d5687412939">(10-31 15:05:58)</span><span class="tabbed">已讀</span>(10-31 15:05:58))
+2023-10-31 15:05:58,559 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:06:09,845 [105] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file message to Z(<span id="e438622d-d37b-4a38-842e-500893b63c78">Y：傳送檔案中，請稍後...(10-31 15:06:09)</span>)
+2023-10-31 15:06:09,845 [105] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:06:09,892 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to <SPAN ID="E438622D-D37B-4A38-842E-500893B63C78">Y(<span id="e438622d-d37b-4a38-842e-500893b63c78">Y：傳送檔案中，請稍後...(10-31 15:06:09)</span><span class="tabbed">已讀</span>(10-31 15:06:09))
+2023-10-31 15:06:09,892 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:06:09,939 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file to Z(1.jpg)
+2023-10-31 15:06:09,939 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(1.jpg) from KaazingChatWebApplication
+2023-10-31 15:06:09,955 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file to Z(2.jpg)
+2023-10-31 15:06:09,955 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2.jpg) from KaazingChatWebApplication
+2023-10-31 15:06:09,971 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file to Z(3.jpg)
+2023-10-31 15:06:09,971 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(3.jpg) from KaazingChatWebApplication
+2023-10-31 15:06:10,159 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to Y(Z：1.jpg<span class="tabbed">已收</span>(10-31 15:06:10))
+2023-10-31 15:06:10,159 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to Y(Z：2.jpg<span class="tabbed">已收</span>(10-31 15:06:10))
+2023-10-31 15:06:10,159 [133] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to Y(Z：3.jpg<span class="tabbed">已收</span>(10-31 15:06:10))
+2023-10-31 15:06:10,159 [133] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:06:10,159 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:06:10,159 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:08:21,719 [140] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file message to Z(<span id="8cf8f2de-c17b-441d-b6d3-a7099959e4d0">Y：傳送檔案中，請稍後...(10-31 15:08:21)</span>)
+2023-10-31 15:08:21,719 [140] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:08:21,813 [132] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to <SPAN ID="8CF8F2DE-C17B-441D-B6D3-A7099959E4D0">Y(<span id="8cf8f2de-c17b-441d-b6d3-a7099959e4d0">Y：傳送檔案中，請稍後...(10-31 15:08:21)</span><span class="tabbed">已讀</span>(10-31 15:08:21))
+2023-10-31 15:08:21,813 [132] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:08:21,813 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file to Z(6.jpg)
+2023-10-31 15:08:21,813 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(6.jpg) from KaazingChatWebApplication
+2023-10-31 15:08:21,830 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file to Z(7.jpg)
+2023-10-31 15:08:21,830 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(7.jpg) from KaazingChatWebApplication
+2023-10-31 15:08:21,845 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file to Z(8.jpg)
+2023-10-31 15:08:21,845 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(8.jpg) from KaazingChatWebApplication
+2023-10-31 15:08:21,861 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file to Z(9.jpg)
+2023-10-31 15:08:21,861 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(9.jpg) from KaazingChatWebApplication
+2023-10-31 15:08:21,877 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a file to Z(10.jpg)
+2023-10-31 15:08:21,877 [130] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(10.jpg) from KaazingChatWebApplication
+2023-10-31 15:08:22,065 [139] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to Y(Z：6.jpg<span class="tabbed">已收</span>(10-31 15:08:21))
+2023-10-31 15:08:22,065 [139] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:08:22,065 [135] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to Y(Z：7.jpg<span class="tabbed">已收</span>(10-31 15:08:21))
+2023-10-31 15:08:22,065 [135] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:08:22,065 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to Y(Z：10.jpg<span class="tabbed">已收</span>(10-31 15:08:21))
+2023-10-31 15:08:22,065 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:08:22,065 [140] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to Y(Z：9.jpg<span class="tabbed">已收</span>(10-31 15:08:21))
+2023-10-31 15:08:22,065 [140] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 15:08:22,065 [132] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to Y(Z：8.jpg<span class="tabbed">已收</span>(10-31 15:08:21))
+2023-10-31 15:08:22,065 [132] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-31 17:10:13,144 [56] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Url－https://si1374.asuscomm.com:1443/KaazingChatWebApplication/api/WebChat/ChatUpdate
+2023-10-31 17:10:13,222 [56] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Method－POST
+2023-10-31 17:10:13,222 [56] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Text－id = Y
+name = Y
+receiver = Z
+htmlMessage = Z：9.jpg<span class="tabbed">&nbsp;&nbsp;&nbsp;已收</span>(10-31 15:08:21)<br>Z：8.jpg<span class="tabbed">&nbsp;&nbsp;&nbsp;已收</span>(10-31 15:08:21)<br>Z：10.jpg<span class="tabbed">&nbsp;&nbsp;&nbsp;已收</span>(10-31 15:08:21)<br>Z：7.jpg<span class="tabbed">&nbsp;&nbsp;&nbsp;已收</span>(10-31 15:08:21)<br>Z：6.jpg<span class="tabbed">&nbsp;&nbsp;&nbsp;已收</span>(10-31 15:08:21)<br><span>Y：6.jpg，7.jpg，8.jpg，9.jpg，10.jpg(檔案傳送完成)(10-31 15:08:21)</span><br><span id="8cf8f2de-c17b-441d-b6d3-a7099959e4d0">Y：傳送檔案中，請稍後...(10-31 15:08:21)</span><br>Z：2.jpg<span class="tabbed">&nbsp;&nbsp;&nbsp;已收</span>(10-31 15:06:10)<br>Z：1.jpg<span class="tabbed">&nbsp;&nbsp;&nbsp;已收</span>(10-31 15:06:10)<br><span>Y：1.jpg，2.jpg，3.jpg(檔案傳送完成)(10-31 15:06:09)</span><br><span id="e438622d-d37b-4a38-842e-500893b63c78">Y：傳送檔案中，請稍後...(10-31 15:06:09)</span><br>Z：<pre class="defaultfont" style="display: inline;">zzz</pre><span class="tabbed" id="b22dc991-0c47-4e36-9105-1d5687412939">(10-31 15:05:58)</span><br>Y：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="501602f6-9892-4c29-a4c9-9c7cc1981c9e">(10-31 15:05:47)</span><span class="tabbed">&nbsp;&nbsp;&nbsp;已讀</span>(10-31 15:05:47)<br>
+date = 2023/10/31 上午 12:00:00
+oprTime = 2023/10/31 下午 05:10:13
+oprIpAddress = 192.168.177.140
+2023-10-31 17:10:13,222 [56] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - TaskCanceledException:An unhandled exception was thrown by Custom Web API exception handler(工作已取消。)
+System.Threading.Tasks.TaskCanceledException: 工作已取消。
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()

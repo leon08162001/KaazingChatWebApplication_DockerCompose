@@ -1,0 +1,56 @@
+2023-11-15 16:29:40,916 [14] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Url－https://si1374.asuscomm.com:1443/KaazingChatWebApplication/api/WebChat/SendTalkMessageToServer
+2023-11-15 16:29:40,954 [14] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Method－POST
+2023-11-15 16:29:40,955 [14] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Text－sender = 
+message = 
+times = 0
+topicOrQueueName = 
+messageType = 0
+ajaxMessageType = 0
+mqUrl = 
+2023-11-15 16:29:40,955 [14] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - NullReferenceException:An unhandled exception was thrown by Custom Web API exception handler(並未將物件參考設定為物件的執行個體。)
+System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 KaazingTestWebApplication.Controllers.WebChatController.SendTalkMessageToServer(MessageModel Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 78
+   於 lambda_method(Closure , Object , Object[] )
+   於 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   於 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-15 16:29:41,045 [17] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Url－https://si1374.asuscomm.com:1443/KaazingChatWebApplication/api/WebChat/SendTalkMessageToServer
+2023-11-15 16:29:41,046 [17] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Method－POST
+2023-11-15 16:29:41,046 [17] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - Request Text－sender = 
+message = 
+times = 0
+topicOrQueueName = 
+messageType = 0
+ajaxMessageType = 0
+mqUrl = 
+2023-11-15 16:29:41,047 [17] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - NullReferenceException:An unhandled exception was thrown by Custom Web API exception handler(並未將物件參考設定為物件的執行個體。)
+System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 KaazingTestWebApplication.Controllers.WebChatController.SendTalkMessageToServer(MessageModel Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 78
+   於 lambda_method(Closure , Object , Object[] )
+   於 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   於 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-15 16:30:28,382 [21] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - jack is sending a message to leon(JACK：<pre class="defaultfont" style="display: inline;">how are you?</pre><span class="tabbed" id="42829620-2737-4802-be7c-076999f4c775">(10-19 14:23:24)</span>)
+2023-11-15 16:30:28,384 [21] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)

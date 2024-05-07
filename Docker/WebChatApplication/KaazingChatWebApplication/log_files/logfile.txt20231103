@@ -1,0 +1,12 @@
+2023-11-03 09:24:36,346 [40] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - test error
+System.Exception: test error
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetAllTalkFriends(Chat Chat) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 970
+2023-11-03 09:25:01,143 [40] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - test error
+System.Exception: test error
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetAllTalkFriends(Chat Chat) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 970
+2023-11-03 09:26:10,399 [40] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - test error
+System.Exception: test error
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetAllTalkFriends(Chat Chat) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 970
+2023-11-03 09:28:13,564 [40] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - test error
+System.Exception: test error
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetAllTalkFriends(Chat Chat) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 970

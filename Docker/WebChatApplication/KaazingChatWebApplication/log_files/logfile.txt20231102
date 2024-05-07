@@ -1,0 +1,74 @@
+2023-11-02 10:44:46,512 [15] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to X(W：<pre class="defaultfont" style="display: inline;">dsf</pre><span class="tabbed" id="2362fe75-513e-4168-9bf4-7f29a106c405">(11-02 10:44:46)</span>)
+2023-11-02 10:44:46,548 [15] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-02 10:44:46,603 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">dsf</pre><span class="tabbed" id="2362fe75-513e-4168-9bf4-7f29a106c405">(11-02 10:44:46)</span><span class="tabbed">已讀</span>(11-02 10:44:46))
+2023-11-02 10:44:46,604 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 10:49:58,264 [31] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file message to X(<span id="75e24f2d-b51c-4519-8007-d3cd745af7cd">W：傳送檔案中，請稍後...(11-02 10:49:58)</span>)
+2023-11-02 10:49:58,264 [31] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 10:49:58,358 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to <SPAN ID="75E24F2D-B51C-4519-8007-D3CD745AF7CD">W(<span id="75e24f2d-b51c-4519-8007-d3cd745af7cd">W：傳送檔案中，請稍後...(11-02 10:49:58)</span><span class="tabbed">已讀</span>(11-02 10:49:58))
+2023-11-02 10:49:58,358 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 10:49:58,452 [32] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(F-網技工會退保通知函.pdf)
+2023-11-02 10:49:58,452 [32] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-11-02 10:49:58,515 [32] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(第一意外險100元-DM.pdf)
+2023-11-02 10:49:58,515 [32] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-11-02 10:49:58,704 [39] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(11-02 10:49:58))
+2023-11-02 10:49:58,704 [39] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 10:49:58,704 [32] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：第一意外險100元-DM.pdf<span class="tabbed">已收</span>(11-02 10:49:58))
+2023-11-02 10:49:58,707 [32] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 10:52:44,278 [31] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file message to X(<span id="f3ba3f5f-046b-41c1-967b-338375543191">W：傳送檔案中，請稍後...(11-02 10:52:44)</span>)
+2023-11-02 10:52:44,278 [31] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 10:52:44,372 [30] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to <SPAN ID="F3BA3F5F-046B-41C1-967B-338375543191">W(<span id="f3ba3f5f-046b-41c1-967b-338375543191">W：傳送檔案中，請稍後...(11-02 10:52:44)</span><span class="tabbed">已讀</span>(11-02 10:52:44))
+2023-11-02 10:52:44,372 [30] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 10:52:45,518 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(彭佳慧 - 心之火.mp3)
+2023-11-02 10:52:45,518 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(彭佳慧 - 心之火.mp3) from KaazingChatWebApplication
+2023-11-02 10:52:47,023 [35] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：彭佳慧 - 心之火.mp3<span class="tabbed">已收</span>(11-02 10:52:46))
+2023-11-02 10:52:47,023 [35] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 11:01:12,013 [62] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file message to X(<span id="ff9156be-cfab-4da1-b23d-8f35fde73f12">W：傳送檔案中，請稍後...(11-02 11:01:11)</span>)
+2023-11-02 11:01:12,013 [62] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 11:01:12,188 [42] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to W(<span id="ff9156be-cfab-4da1-b23d-8f35fde73f12">W：傳送檔案中，請稍後...(11-02 11:01:11)</span><span class="tabbed">已讀</span>(11-02 11:01:11))
+2023-11-02 11:01:12,188 [42] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 11:01:13,434 [56] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(五天幾年.mp3)
+2023-11-02 11:01:13,434 [56] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(五天幾年.mp3) from KaazingChatWebApplication
+2023-11-02 11:01:13,828 [69] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：五天幾年.mp3<span class="tabbed">已收</span>(11-02 11:01:13))
+2023-11-02 11:01:13,828 [69] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 11:03:17,049 [40] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file message to W(<span id="7f629523-b535-41ab-94c3-c421316b9700">X：傳送檔案中，請稍後...(11-02 11:03:16)</span>)
+2023-11-02 11:03:17,051 [40] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 11:03:17,231 [67] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a readed message to X(<span id="7f629523-b535-41ab-94c3-c421316b9700">X：傳送檔案中，請稍後...(11-02 11:03:16)</span><span class="tabbed">已讀</span>(11-02 11:03:17))
+2023-11-02 11:03:17,231 [67] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 11:03:18,751 [54] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to W(2000彭佳慧 - 不一定.mp3)
+2023-11-02 11:03:18,751 [54] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2000彭佳慧 - 不一定.mp3) from KaazingChatWebApplication
+2023-11-02 11:03:19,261 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a received message to X(W：2000彭佳慧 - 不一定.mp3<span class="tabbed">已收</span>(11-02 11:03:19))
+2023-11-02 11:03:19,261 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 11:32:17,509 [84] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B is sending a message to A123456789(B：<pre class="defaultfont" style="display: inline;">yy</pre><span class="tabbed" id="a7f4f196-992e-4ebe-ab6f-a47148d9f011">(11-02 11:32:17)</span>)
+2023-11-02 11:32:17,512 [84] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-02 11:32:18,000 [32] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a readed message to B(B：<pre class="defaultfont" style="display: inline;">yy</pre><span class="tabbed" id="a7f4f196-992e-4ebe-ab6f-a47148d9f011">(11-02 11:32:17)</span><span class="tabbed">已讀</span>(11-02 11:32:17))
+2023-11-02 11:32:18,005 [32] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-02 16:10:40,761 [21] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - TaskCanceledException:An unhandled exception was thrown by Custom Web API exception handler(工作已取消。)
+System.Threading.Tasks.TaskCanceledException: 工作已取消。
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-02 16:31:17,932 [10] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - TaskCanceledException:An unhandled exception was thrown by Custom Web API exception handler(工作已取消。)
+System.Threading.Tasks.TaskCanceledException: 工作已取消。
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()

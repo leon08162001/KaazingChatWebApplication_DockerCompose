@@ -1,0 +1,210 @@
+2023-10-28 11:20:05,352 [262] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to X(W：<pre class="defaultfont" style="display: inline;">10/28 good morning every one!</pre><span class="tabbed" id="65d6d657-d73e-4580-aa1b-46fbfc60cfbb">(10-28 11:20:05)</span>)
+2023-10-28 11:20:05,367 [262] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Y(W：<pre class="defaultfont" style="display: inline;">10/28 good morning every one!</pre><span class="tabbed" id="65d6d657-d73e-4580-aa1b-46fbfc60cfbb">(10-28 11:20:05)</span>)
+2023-10-28 11:20:05,383 [262] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Z(W：<pre class="defaultfont" style="display: inline;">10/28 good morning every one!</pre><span class="tabbed" id="65d6d657-d73e-4580-aa1b-46fbfc60cfbb">(10-28 11:20:05)</span>)
+2023-10-28 11:20:05,383 [262] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-28 11:20:05,477 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">10/28 good morning every one!</pre><span class="tabbed" id="65d6d657-d73e-4580-aa1b-46fbfc60cfbb">(10-28 11:20:05)</span><span class="tabbed">已讀</span>(10-28 11:20:05))
+2023-10-28 11:20:05,477 [119] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:05,477 [167] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">10/28 good morning every one!</pre><span class="tabbed" id="65d6d657-d73e-4580-aa1b-46fbfc60cfbb">(10-28 11:20:05)</span><span class="tabbed">已讀</span>(10-28 11:20:05))
+2023-10-28 11:20:05,477 [167] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:05,493 [109] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">10/28 good morning every one!</pre><span class="tabbed" id="65d6d657-d73e-4580-aa1b-46fbfc60cfbb">(10-28 11:20:05)</span><span class="tabbed">已讀</span>(10-28 11:20:05))
+2023-10-28 11:20:05,493 [109] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:31,718 [233] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file message to X(<span id="954dea77-865b-48b8-987a-36e28d12e53a">W：傳送檔案中，請稍後...(10-28 11:20:31)</span>)
+2023-10-28 11:20:31,734 [233] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file message to Y(<span id="954dea77-865b-48b8-987a-36e28d12e53a">W：傳送檔案中，請稍後...(10-28 11:20:31)</span>)
+2023-10-28 11:20:31,750 [233] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file message to Z(<span id="954dea77-865b-48b8-987a-36e28d12e53a">W：傳送檔案中，請稍後...(10-28 11:20:31)</span>)
+2023-10-28 11:20:31,750 [233] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:31,766 [95] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to <SPAN ID="954DEA77-865B-48B8-987A-36E28D12E53A">W(<span id="954dea77-865b-48b8-987a-36e28d12e53a">W：傳送檔案中，請稍後...(10-28 11:20:31)</span><span class="tabbed">已讀</span>(10-28 11:20:31))
+2023-10-28 11:20:31,766 [95] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:31,781 [109] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to <SPAN ID="954DEA77-865B-48B8-987A-36E28D12E53A">W(<span id="954dea77-865b-48b8-987a-36e28d12e53a">W：傳送檔案中，請稍後...(10-28 11:20:31)</span><span class="tabbed">已讀</span>(10-28 11:20:31))
+2023-10-28 11:20:31,781 [109] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:31,829 [244] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to <SPAN ID="954DEA77-865B-48B8-987A-36E28D12E53A">W(<span id="954dea77-865b-48b8-987a-36e28d12e53a">W：傳送檔案中，請稍後...(10-28 11:20:31)</span><span class="tabbed">已讀</span>(10-28 11:20:31))
+2023-10-28 11:20:31,829 [244] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:31,875 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(1.jpg)
+2023-10-28 11:20:31,875 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(1.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:31,891 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(2.jpg)
+2023-10-28 11:20:31,891 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:31,907 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(3.jpg)
+2023-10-28 11:20:31,907 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(3.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:31,922 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(4.jpg)
+2023-10-28 11:20:31,922 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(4.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:31,938 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to X(5.jpg)
+2023-10-28 11:20:31,938 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(5.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:31,954 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Y(1.jpg)
+2023-10-28 11:20:31,954 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(1.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:31,970 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Y(2.jpg)
+2023-10-28 11:20:31,970 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:31,985 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Y(3.jpg)
+2023-10-28 11:20:31,985 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(3.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:32,033 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Y(4.jpg)
+2023-10-28 11:20:32,033 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(4.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:32,048 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Y(5.jpg)
+2023-10-28 11:20:32,048 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(5.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:32,064 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Z(1.jpg)
+2023-10-28 11:20:32,064 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(1.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:32,080 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Z(2.jpg)
+2023-10-28 11:20:32,080 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:32,095 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Z(3.jpg)
+2023-10-28 11:20:32,111 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(3.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:32,158 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Z(4.jpg)
+2023-10-28 11:20:32,158 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(4.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:32,158 [236] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：1.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:32,158 [236] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:32,221 [196] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：2.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:32,230 [196] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:32,230 [233] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：3.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:32,230 [233] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:32,221 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a file to Z(5.jpg)
+2023-10-28 11:20:32,237 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(5.jpg) from KaazingChatWebApplication
+2023-10-28 11:20:32,237 [111] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：4.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:32,237 [111] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:32,237 [115] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a received message to W(X：5.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:32,252 [115] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:42,088 [109] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to W(Y：3.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:42,088 [109] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,081 [111] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to W(Y：4.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,081 [111] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,081 [196] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to W(Y：2.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,081 [196] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,081 [115] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to W(Z：1.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,081 [115] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,081 [108] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to W(Z：2.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,081 [157] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to W(Z：5.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,097 [108] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,081 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to W(Z：4.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,097 [194] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,097 [157] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,081 [199] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to W(Y：1.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,097 [199] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,128 [171] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to W(Z：3.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,128 [171] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 11:20:44,128 [233] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to W(Y：5.jpg<span class="tabbed">已收</span>(10-28 11:20:32))
+2023-10-28 11:20:44,128 [233] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:17,467 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to X(W：<pre class="defaultfont" style="display: inline;">vsd</pre><span class="tabbed" id="0303963a-fdfe-4563-85b5-a7431a9d38e3">(10-28 12:21:16)</span>)
+2023-10-28 12:21:17,561 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">vsd</pre><span class="tabbed" id="0303963a-fdfe-4563-85b5-a7431a9d38e3">(10-28 12:21:16)</span><span class="tabbed">已讀</span>(10-28 12:21:17))
+2023-10-28 12:21:17,561 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Y(W：<pre class="defaultfont" style="display: inline;">vsd</pre><span class="tabbed" id="0303963a-fdfe-4563-85b5-a7431a9d38e3">(10-28 12:21:16)</span>)
+2023-10-28 12:21:17,561 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:17,577 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Z(W：<pre class="defaultfont" style="display: inline;">vsd</pre><span class="tabbed" id="0303963a-fdfe-4563-85b5-a7431a9d38e3">(10-28 12:21:16)</span>)
+2023-10-28 12:21:17,577 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-28 12:21:17,624 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">vsd</pre><span class="tabbed" id="0303963a-fdfe-4563-85b5-a7431a9d38e3">(10-28 12:21:16)</span><span class="tabbed">已讀</span>(10-28 12:21:17))
+2023-10-28 12:21:17,624 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:17,750 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">vsd</pre><span class="tabbed" id="0303963a-fdfe-4563-85b5-a7431a9d38e3">(10-28 12:21:16)</span><span class="tabbed">已讀</span>(10-28 12:21:17))
+2023-10-28 12:21:17,750 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:32,359 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to X(W：<pre class="defaultfont" style="display: inline;">dvv</pre><span class="tabbed" id="a602ec85-56bf-48cf-b0eb-e033d7091dcb">(10-28 12:21:32)</span>)
+2023-10-28 12:21:32,375 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Y(W：<pre class="defaultfont" style="display: inline;">dvv</pre><span class="tabbed" id="a602ec85-56bf-48cf-b0eb-e033d7091dcb">(10-28 12:21:32)</span>)
+2023-10-28 12:21:32,391 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Z(W：<pre class="defaultfont" style="display: inline;">dvv</pre><span class="tabbed" id="a602ec85-56bf-48cf-b0eb-e033d7091dcb">(10-28 12:21:32)</span>)
+2023-10-28 12:21:32,391 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-28 12:21:32,391 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">dvv</pre><span class="tabbed" id="a602ec85-56bf-48cf-b0eb-e033d7091dcb">(10-28 12:21:32)</span><span class="tabbed">已讀</span>(10-28 12:21:32))
+2023-10-28 12:21:32,391 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:32,438 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">dvv</pre><span class="tabbed" id="a602ec85-56bf-48cf-b0eb-e033d7091dcb">(10-28 12:21:32)</span><span class="tabbed">已讀</span>(10-28 12:21:32))
+2023-10-28 12:21:32,438 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:32,438 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">dvv</pre><span class="tabbed" id="a602ec85-56bf-48cf-b0eb-e033d7091dcb">(10-28 12:21:32)</span><span class="tabbed">已讀</span>(10-28 12:21:32))
+2023-10-28 12:21:32,438 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:36,031 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to X(W：<pre class="defaultfont" style="display: inline;">bf</pre><span class="tabbed" id="857366f7-32cf-49bc-9d15-bcee7bc627f5">(10-28 12:21:35)</span>)
+2023-10-28 12:21:36,047 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Y(W：<pre class="defaultfont" style="display: inline;">bf</pre><span class="tabbed" id="857366f7-32cf-49bc-9d15-bcee7bc627f5">(10-28 12:21:35)</span>)
+2023-10-28 12:21:36,063 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Z(W：<pre class="defaultfont" style="display: inline;">bf</pre><span class="tabbed" id="857366f7-32cf-49bc-9d15-bcee7bc627f5">(10-28 12:21:35)</span>)
+2023-10-28 12:21:36,063 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">bf</pre><span class="tabbed" id="857366f7-32cf-49bc-9d15-bcee7bc627f5">(10-28 12:21:35)</span><span class="tabbed">已讀</span>(10-28 12:21:36))
+2023-10-28 12:21:36,063 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-28 12:21:36,063 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:36,078 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">bf</pre><span class="tabbed" id="857366f7-32cf-49bc-9d15-bcee7bc627f5">(10-28 12:21:35)</span><span class="tabbed">已讀</span>(10-28 12:21:36))
+2023-10-28 12:21:36,078 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:36,125 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">bf</pre><span class="tabbed" id="857366f7-32cf-49bc-9d15-bcee7bc627f5">(10-28 12:21:35)</span><span class="tabbed">已讀</span>(10-28 12:21:36))
+2023-10-28 12:21:36,125 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:40,268 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to X(W：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="920df04b-9d83-402e-9c70-72408e23e040">(10-28 12:21:40)</span>)
+2023-10-28 12:21:40,283 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Y(W：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="920df04b-9d83-402e-9c70-72408e23e040">(10-28 12:21:40)</span>)
+2023-10-28 12:21:40,299 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a message to Z(W：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="920df04b-9d83-402e-9c70-72408e23e040">(10-28 12:21:40)</span>)
+2023-10-28 12:21:40,299 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-28 12:21:40,299 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="920df04b-9d83-402e-9c70-72408e23e040">(10-28 12:21:40)</span><span class="tabbed">已讀</span>(10-28 12:21:40))
+2023-10-28 12:21:40,299 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:40,346 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="920df04b-9d83-402e-9c70-72408e23e040">(10-28 12:21:40)</span><span class="tabbed">已讀</span>(10-28 12:21:40))
+2023-10-28 12:21:40,346 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:40,346 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to W(W：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="920df04b-9d83-402e-9c70-72408e23e040">(10-28 12:21:40)</span><span class="tabbed">已讀</span>(10-28 12:21:40))
+2023-10-28 12:21:40,346 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:43,058 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a message to X(Y：<pre class="defaultfont" style="display: inline;">dvs</pre><span class="tabbed" id="d810caa4-4baf-4d88-bb5a-fdd8f748efae">(10-28 12:21:43)</span>)
+2023-10-28 12:21:43,074 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a message to W(Y：<pre class="defaultfont" style="display: inline;">dvs</pre><span class="tabbed" id="d810caa4-4baf-4d88-bb5a-fdd8f748efae">(10-28 12:21:43)</span>)
+2023-10-28 12:21:43,090 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a message to Z(Y：<pre class="defaultfont" style="display: inline;">dvs</pre><span class="tabbed" id="d810caa4-4baf-4d88-bb5a-fdd8f748efae">(10-28 12:21:43)</span>)
+2023-10-28 12:21:43,090 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a readed message to Y(Y：<pre class="defaultfont" style="display: inline;">dvs</pre><span class="tabbed" id="d810caa4-4baf-4d88-bb5a-fdd8f748efae">(10-28 12:21:43)</span><span class="tabbed">已讀</span>(10-28 12:21:43))
+2023-10-28 12:21:43,090 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:43,090 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-28 12:21:43,137 [20] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a readed message to Y(Y：<pre class="defaultfont" style="display: inline;">dvs</pre><span class="tabbed" id="d810caa4-4baf-4d88-bb5a-fdd8f748efae">(10-28 12:21:43)</span><span class="tabbed">已讀</span>(10-28 12:21:43))
+2023-10-28 12:21:43,137 [20] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:43,137 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to Y(Y：<pre class="defaultfont" style="display: inline;">dvs</pre><span class="tabbed" id="d810caa4-4baf-4d88-bb5a-fdd8f748efae">(10-28 12:21:43)</span><span class="tabbed">已讀</span>(10-28 12:21:43))
+2023-10-28 12:21:43,137 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:58,700 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a message to W(X：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9c65c69f-61f8-450d-a3e5-88a773409061">(10-28 12:21:58)</span>)
+2023-10-28 12:21:58,716 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a message to Y(X：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9c65c69f-61f8-450d-a3e5-88a773409061">(10-28 12:21:58)</span>)
+2023-10-28 12:21:58,731 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a message to Z(X：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9c65c69f-61f8-450d-a3e5-88a773409061">(10-28 12:21:58)</span>)
+2023-10-28 12:21:58,731 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-28 12:21:58,731 [20] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a readed message to X(X：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9c65c69f-61f8-450d-a3e5-88a773409061">(10-28 12:21:58)</span><span class="tabbed">已讀</span>(10-28 12:21:58))
+2023-10-28 12:21:58,731 [20] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:58,779 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to X(X：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9c65c69f-61f8-450d-a3e5-88a773409061">(10-28 12:21:58)</span><span class="tabbed">已讀</span>(10-28 12:21:58))
+2023-10-28 12:21:58,779 [23] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:21:58,779 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to X(X：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9c65c69f-61f8-450d-a3e5-88a773409061">(10-28 12:21:58)</span><span class="tabbed">已讀</span>(10-28 12:21:58))
+2023-10-28 12:21:58,779 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:24,224 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file message to W(<span id="99600cbe-7aeb-4aea-9481-e053436d0fe3">X：傳送檔案中，請稍後...(10-28 12:22:24)</span>)
+2023-10-28 12:22:24,239 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file message to Y(<span id="99600cbe-7aeb-4aea-9481-e053436d0fe3">X：傳送檔案中，請稍後...(10-28 12:22:24)</span>)
+2023-10-28 12:22:24,255 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file message to Z(<span id="99600cbe-7aeb-4aea-9481-e053436d0fe3">X：傳送檔案中，請稍後...(10-28 12:22:24)</span>)
+2023-10-28 12:22:24,255 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:24,255 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a readed message to <SPAN ID="99600CBE-7AEB-4AEA-9481-E053436D0FE3">X(<span id="99600cbe-7aeb-4aea-9481-e053436d0fe3">X：傳送檔案中，請稍後...(10-28 12:22:24)</span><span class="tabbed">已讀</span>(10-28 12:22:24))
+2023-10-28 12:22:24,255 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:24,302 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a readed message to <SPAN ID="99600CBE-7AEB-4AEA-9481-E053436D0FE3">X(<span id="99600cbe-7aeb-4aea-9481-e053436d0fe3">X：傳送檔案中，請稍後...(10-28 12:22:24)</span><span class="tabbed">已讀</span>(10-28 12:22:24))
+2023-10-28 12:22:24,302 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:24,302 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a readed message to <SPAN ID="99600CBE-7AEB-4AEA-9481-E053436D0FE3">X(<span id="99600cbe-7aeb-4aea-9481-e053436d0fe3">X：傳送檔案中，請稍後...(10-28 12:22:24)</span><span class="tabbed">已讀</span>(10-28 12:22:24))
+2023-10-28 12:22:24,306 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:24,349 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to W(6.jpg)
+2023-10-28 12:22:24,349 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(6.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,365 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to W(7.jpg)
+2023-10-28 12:22:24,365 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(7.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,380 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to W(8.jpg)
+2023-10-28 12:22:24,380 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(8.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,396 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to W(9.jpg)
+2023-10-28 12:22:24,396 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(9.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,443 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to W(10.jpg)
+2023-10-28 12:22:24,443 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(10.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,459 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Y(6.jpg)
+2023-10-28 12:22:24,459 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(6.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,474 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Y(7.jpg)
+2023-10-28 12:22:24,474 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(7.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,490 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to X(Y：6.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:24,490 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:24,490 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Y(8.jpg)
+2023-10-28 12:22:24,490 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(8.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,537 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to X(Y：7.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:24,537 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:24,537 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Y(9.jpg)
+2023-10-28 12:22:24,537 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(9.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:24,584 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Y(10.jpg)
+2023-10-28 12:22:24,584 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(10.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:25,245 [50] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a received message to X(W：6.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:25,245 [50] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:25,245 [59] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to X(Y：8.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:25,245 [59] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:25,245 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Z(6.jpg)
+2023-10-28 12:22:25,245 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(6.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:25,512 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Z(7.jpg)
+2023-10-28 12:22:25,512 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(7.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:26,140 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a received message to X(W：9.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:26,140 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a received message to X(W：10.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:26,140 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,140 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a received message to X(W：7.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:26,140 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,140 [63] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to X(Y：9.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:26,140 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,140 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Z(8.jpg)
+2023-10-28 12:22:26,140 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(8.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:26,140 [63] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,265 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Z(9.jpg)
+2023-10-28 12:22:26,265 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(9.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:26,265 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to X(Z：6.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:26,265 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,265 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - W is sending a received message to X(W：8.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:26,281 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,281 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Y is sending a received message to X(Y：10.jpg<span class="tabbed">已收</span>(10-28 12:22:24))
+2023-10-28 12:22:26,281 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,281 [59] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to X(Z：7.jpg<span class="tabbed">已收</span>(10-28 12:22:25))
+2023-10-28 12:22:26,281 [59] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,312 [61] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to X(Z：8.jpg<span class="tabbed">已收</span>(10-28 12:22:25))
+2023-10-28 12:22:26,312 [61] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,312 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - X is sending a file to Z(10.jpg)
+2023-10-28 12:22:26,312 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(10.jpg) from KaazingChatWebApplication
+2023-10-28 12:22:26,410 [63] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to X(Z：9.jpg<span class="tabbed">已收</span>(10-28 12:22:26))
+2023-10-28 12:22:26,410 [63] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-28 12:22:26,410 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - Z is sending a received message to X(Z：10.jpg<span class="tabbed">已收</span>(10-28 12:22:26))
+2023-10-28 12:22:26,410 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication

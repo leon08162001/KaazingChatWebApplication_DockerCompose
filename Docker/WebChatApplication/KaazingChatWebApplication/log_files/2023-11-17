@@ -1,0 +1,30 @@
+2023-11-17 14:49:52.7249|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：K：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="91cf3151-cc26-4a59-8a07-49da6d9cdb74">(11-17 14:49:52)</span>
+
+2023-11-17 14:49:52.8630|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：K：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="91cf3151-cc26-4a59-8a07-49da6d9cdb74">(11-17 14:49:52)</span><span class="tabbed">已讀</span>(11-17 14:49:52)
+
+2023-11-17 14:49:56.2148|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C：<pre class="defaultfont" style="display: inline;">wd</pre><span class="tabbed" id="9970284d-204d-48b0-b342-b9474dba7b6f">(11-17 14:49:56)</span>
+
+2023-11-17 14:49:56.3493|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C：<pre class="defaultfont" style="display: inline;">wd</pre><span class="tabbed" id="9970284d-204d-48b0-b342-b9474dba7b6f">(11-17 14:49:56)</span><span class="tabbed">已讀</span>(11-17 14:49:56)
+
+2023-11-17 14:50:03.4657|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：<span id="0497b2b3-6ada-4821-b69a-1d596cb2f4c7">K：傳送檔案中，請稍後...(11-17 14:50:03)</span>
+
+2023-11-17 14:50:03.6202|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：<span id="0497b2b3-6ada-4821-b69a-1d596cb2f4c7">K：傳送檔案中，請稍後...(11-17 14:50:03)</span><span class="tabbed">已讀</span>(11-17 14:50:03)
+
+2023-11-17 14:50:04.6095|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：F-網技工會退保通知函.pdf，sequence：1，totalSequence：1)
+
+2023-11-17 14:50:04.6359|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：第一意外險100元-DM.pdf，sequence：1，totalSequence：1)
+
+2023-11-17 14:50:04.7408|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(11-17 14:50:04)
+
+2023-11-17 14:50:04.9156|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C：第一意外險100元-DM.pdf<span class="tabbed">已收</span>(11-17 14:50:04)
+

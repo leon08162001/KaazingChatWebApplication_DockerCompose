@@ -1,0 +1,148 @@
+2023-10-26 13:03:28,747 [210] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (XX, WW, 10 26 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (XX, WW, 10 26 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 768
+ClientConnectionId:5a419191-e67a-41d1-91a5-b252e718a974
+Error Number:2627,State:1,Class:14
+2023-10-26 13:03:28,747 [238] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (XX, WW, 10 26 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (XX, WW, 10 26 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 768
+ClientConnectionId:a0915134-24a7-46ee-8beb-36a1965480aa
+Error Number:2627,State:1,Class:14
+2023-10-26 13:04:03,157 [208] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (YY, XX,YY,ZZ, 10 26 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (YY, XX,YY,ZZ, 10 26 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 768
+ClientConnectionId:72d3390b-9367-4fc2-bd3b-dba871f5a0cc
+Error Number:2627,State:1,Class:14
+2023-10-26 13:04:17,124 [205] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (ZZ, XX, 10 26 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (ZZ, XX, 10 26 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 768
+ClientConnectionId:62be7aab-3eab-4870-bb88-e7974181924e
+Error Number:2627,State:1,Class:14
+2023-10-26 13:04:17,125 [84] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (ZZ, XX, 10 26 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (ZZ, XX, 10 26 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 768
+ClientConnectionId:72d3390b-9367-4fc2-bd3b-dba871f5a0cc
+Error Number:2627,State:1,Class:14
+2023-10-26 13:57:03,104 [198] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (XX, W,Y,Z, 10 26 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (XX, W,Y,Z, 10 26 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdateWhenExit() 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 834
+ClientConnectionId:8558c5df-2959-4f40-b2c3-83b678514d75
+Error Number:2627,State:1,Class:14
+2023-10-26 14:23:18,874 [94] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (W, Z, 10 26 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (W, Z, 10 26 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 768
+ClientConnectionId:45ade37d-25ae-463e-baab-8b11bacf1067
+Error Number:2627,State:1,Class:14
+2023-10-26 14:23:18,874 [215] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (W, Z, 10 26 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (W, Z, 10 26 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 768
+ClientConnectionId:45ade37d-25ae-463e-baab-8b11bacf1067
+Error Number:2627,State:1,Class:14
+2023-10-26 16:25:22,427 [15] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - WebSocket connection failed
+Kaazing.JMS.Stomp.ConnectionFailedException: WebSocket connection failed
+   於 Common.LinkLayer.BaseWebSocketAdapter.Start() 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\Common\LinkLayer\BaseWebSocketAdapter.cs: 行 344
+   於 KaazingTestWebApplication.Controllers.WebChatController.SendAjaxMessageToServer(MessageModel Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 162

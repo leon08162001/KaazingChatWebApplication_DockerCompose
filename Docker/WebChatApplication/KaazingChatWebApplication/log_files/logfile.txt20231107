@@ -1,0 +1,108 @@
+2023-11-07 09:53:10,185 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a message to V(A：<pre class="defaultfont" style="display: inline;">how are you,today?</pre><span class="tabbed" id="45cca161-f61b-4182-a870-e3122399e2be">(11-07 09:53:09)</span>)
+2023-11-07 09:53:10,276 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a message to D(A：<pre class="defaultfont" style="display: inline;">how are you,today?</pre><span class="tabbed" id="45cca161-f61b-4182-a870-e3122399e2be">(11-07 09:53:09)</span>)
+2023-11-07 09:53:10,292 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a message to B(A：<pre class="defaultfont" style="display: inline;">how are you,today?</pre><span class="tabbed" id="45cca161-f61b-4182-a870-e3122399e2be">(11-07 09:53:09)</span>)
+2023-11-07 09:53:10,293 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-07 09:53:10,338 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - V is sending a readed message to A(A：<pre class="defaultfont" style="display: inline;">how are you,today?</pre><span class="tabbed" id="45cca161-f61b-4182-a870-e3122399e2be">(11-07 09:53:09)</span><span class="tabbed">已讀</span>(11-07 09:53:10))
+2023-11-07 09:53:10,340 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:20,212 [9] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - V is sending a message to A(V：<pre class="defaultfont" style="display: inline;">I am fine!</pre><span class="tabbed" id="4fb18aec-650b-4c32-b8c4-deff08b662c5">(11-07 09:53:20)</span>)
+2023-11-07 09:53:20,213 [9] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-07 09:53:20,399 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a readed message to V(V：<pre class="defaultfont" style="display: inline;">I am fine!</pre><span class="tabbed" id="4fb18aec-650b-4c32-b8c4-deff08b662c5">(11-07 09:53:20)</span><span class="tabbed">已讀</span>(11-07 09:53:20))
+2023-11-07 09:53:20,399 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:32,032 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file message to V(<span id="14b56bd2-0280-4609-a88b-153289dea132">A：傳送檔案中，請稍後...(11-07 09:53:31)</span>)
+2023-11-07 09:53:32,049 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file message to D(<span id="14b56bd2-0280-4609-a88b-153289dea132">A：傳送檔案中，請稍後...(11-07 09:53:31)</span>)
+2023-11-07 09:53:32,064 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file message to B(<span id="14b56bd2-0280-4609-a88b-153289dea132">A：傳送檔案中，請稍後...(11-07 09:53:31)</span>)
+2023-11-07 09:53:32,065 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:32,157 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - V is sending a readed message to A(<span id="14b56bd2-0280-4609-a88b-153289dea132">A：傳送檔案中，請稍後...(11-07 09:53:31)</span><span class="tabbed">已讀</span>(11-07 09:53:32))
+2023-11-07 09:53:32,158 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:32,889 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file message to V(<span id="e5b5f0ae-ec61-4d95-afbb-2e3c18fba7cd">A：傳送檔案中，請稍後...(11-07 09:53:31)</span>)
+2023-11-07 09:53:32,906 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file message to D(<span id="e5b5f0ae-ec61-4d95-afbb-2e3c18fba7cd">A：傳送檔案中，請稍後...(11-07 09:53:31)</span>)
+2023-11-07 09:53:32,921 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file message to B(<span id="e5b5f0ae-ec61-4d95-afbb-2e3c18fba7cd">A：傳送檔案中，請稍後...(11-07 09:53:31)</span>)
+2023-11-07 09:53:32,922 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:33,107 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - V is sending a readed message to A(<span id="e5b5f0ae-ec61-4d95-afbb-2e3c18fba7cd">A：傳送檔案中，請稍後...(11-07 09:53:31)</span><span class="tabbed">已讀</span>(11-07 09:53:32))
+2023-11-07 09:53:33,108 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:33,301 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to V(F-網技工會退保通知函.pdf)
+2023-11-07 09:53:33,302 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:33,381 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to V(第一意外險100元-DM.pdf)
+2023-11-07 09:53:33,382 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:33,411 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to V(F-網技工會退保通知函.pdf)
+2023-11-07 09:53:33,413 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:35,607 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to V(第一意外險100元-DM.pdf)
+2023-11-07 09:53:35,608 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:35,638 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - V is sending a received message to A(V：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(11-07 09:53:33))
+2023-11-07 09:53:35,639 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:36,470 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to D(F-網技工會退保通知函.pdf)
+2023-11-07 09:53:36,471 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:36,611 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - V is sending a received message to A(V：第一意外險100元-DM.pdf<span class="tabbed">已收</span>(11-07 09:53:33))
+2023-11-07 09:53:36,614 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:36,614 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to D(第一意外險100元-DM.pdf)
+2023-11-07 09:53:36,623 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:36,623 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - V is sending a received message to A(V：第一意外險100元-DM.pdf<span class="tabbed">已收</span>(11-07 09:53:33))
+2023-11-07 09:53:36,665 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:36,718 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to D(F-網技工會退保通知函.pdf)
+2023-11-07 09:53:36,719 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:36,718 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - V is sending a received message to A(V：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(11-07 09:53:33))
+2023-11-07 09:53:36,721 [14] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 09:53:36,771 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to D(第一意外險100元-DM.pdf)
+2023-11-07 09:53:36,772 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:36,795 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to B(F-網技工會退保通知函.pdf)
+2023-11-07 09:53:36,796 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:36,859 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to B(第一意外險100元-DM.pdf)
+2023-11-07 09:53:36,859 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:36,872 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to B(F-網技工會退保通知函.pdf)
+2023-11-07 09:53:36,873 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-11-07 09:53:36,921 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a file to B(第一意外險100元-DM.pdf)
+2023-11-07 09:53:36,922 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-11-07 16:21:51,465 [9] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a message to B123456789(A123456789：<pre class="defaultfont" style="display: inline;">Ggyy</pre><span class="tabbed" id="6b4d17cf-527d-4e61-a143-850bd2eef9db">(11-07 16:21:40)</span>)
+2023-11-07 16:21:51,504 [9] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-07 16:21:51,975 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a readed message to A123456789(A123456789：<pre class="defaultfont" style="display: inline;">Ggyy</pre><span class="tabbed" id="6b4d17cf-527d-4e61-a143-850bd2eef9db">(11-07 16:21:40)</span><span class="tabbed">已讀</span>(11-07 16:21:50))
+2023-11-07 16:21:51,975 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:22:16,020 [9] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a message to A123456789(B123456789：<pre class="defaultfont" style="display: inline;">Yg6</pre><span class="tabbed" id="7c056eab-acf6-4955-bbd8-52141499dd3b">(11-07 16:22:13)</span>)
+2023-11-07 16:22:16,020 [9] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-07 16:22:26,192 [8] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (A123456789, B123456789, 11  7 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (A123456789, B123456789, 11  7 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdateWhenExit() 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 834
+ClientConnectionId:806d25fa-e68a-485a-b86d-cf0d00254e65
+Error Number:2627,State:1,Class:14
+2023-11-07 16:22:26,350 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a readed message to B123456789(B123456789：<pre class="defaultfont" style="display: inline;">Yg6</pre><span class="tabbed" id="7c056eab-acf6-4955-bbd8-52141499dd3b">(11-07 16:22:13)</span><span class="tabbed">已讀</span>(11-07 16:22:15))
+2023-11-07 16:22:26,350 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:22:33,672 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a message to A123456789(B123456789：<pre class="defaultfont" style="display: inline;">Rftf</pre><span class="tabbed" id="fc417521-2d48-4041-80da-6d43ee2f9edb">(11-07 16:22:31)</span>)
+2023-11-07 16:22:33,672 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-07 16:22:33,859 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a readed message to B123456789(B123456789：<pre class="defaultfont" style="display: inline;">Rftf</pre><span class="tabbed" id="fc417521-2d48-4041-80da-6d43ee2f9edb">(11-07 16:22:31)</span><span class="tabbed">已讀</span>(11-07 16:22:33))
+2023-11-07 16:22:33,859 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:22:41,307 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a message to B123456789(A123456789：<pre class="defaultfont" style="display: inline;">Xx day g</pre><span class="tabbed" id="a6841df5-725d-49d1-b2da-8ca0cc085279">(11-07 16:22:40)</span>)
+2023-11-07 16:22:41,307 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-07 16:22:41,714 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a readed message to A123456789(A123456789：<pre class="defaultfont" style="display: inline;">Xx day g</pre><span class="tabbed" id="a6841df5-725d-49d1-b2da-8ca0cc085279">(11-07 16:22:40)</span><span class="tabbed">已讀</span>(11-07 16:22:39))
+2023-11-07 16:22:41,714 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:23:16,489 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a file message to A123456789(<span id="341a262f-e063-410e-a4e4-d2d860dd2aa8">B123456789：傳送檔案中，請稍後...(11-07 16:23:13)</span>)
+2023-11-07 16:23:16,489 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:23:16,678 [40] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a readed message to B123456789(<span id="341a262f-e063-410e-a4e4-d2d860dd2aa8">B123456789：傳送檔案中，請稍後...(11-07 16:23:13)</span><span class="tabbed">已讀</span>(11-07 16:23:16))
+2023-11-07 16:23:16,678 [40] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:23:42,323 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a file to A123456789(Tifa Cloud ～FF7 Remake～.mp3)
+2023-11-07 16:23:42,323 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(Tifa Cloud ～FF7 Remake～.mp3) from KaazingChatWebApplication
+2023-11-07 16:23:43,829 [54] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a received message to B123456789(A123456789：Tifa Cloud ～FF7 Remake～.mp3<span class="tabbed">已收</span>(11-07 16:23:43))
+2023-11-07 16:23:43,829 [54] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:24:15,825 [54] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a file message to B123456789(<span id="76c9276b-71d5-4a04-adea-f43413e04b86">A123456789：傳送檔案中，請稍後...(11-07 16:24:15)</span>)
+2023-11-07 16:24:15,825 [54] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:24:16,128 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a readed message to A123456789(<span id="76c9276b-71d5-4a04-adea-f43413e04b86">A123456789：傳送檔案中，請稍後...(11-07 16:24:15)</span><span class="tabbed">已讀</span>(11-07 16:24:14))
+2023-11-07 16:24:16,128 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:25:30,750 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a file to B123456789(五天幾年.mp3)
+2023-11-07 16:25:30,750 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(五天幾年.mp3) from KaazingChatWebApplication
+2023-11-07 16:25:31,205 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A123456789 is sending a file to B123456789(2006蔡依林 - 聽說愛情回來過(高音質).mp3)
+2023-11-07 16:25:31,205 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2006蔡依林 - 聽說愛情回來過(高音質).mp3) from KaazingChatWebApplication
+2023-11-07 16:25:33,473 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a received message to A123456789(B123456789：五天幾年.mp3<span class="tabbed">已收</span>(11-07 16:25:31))
+2023-11-07 16:25:33,473 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-07 16:25:36,308 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - B123456789 is sending a received message to A123456789(B123456789：2006蔡依林 - 聽說愛情回來過(高音質).mp3<span class="tabbed">已收</span>(11-07 16:25:34))
+2023-11-07 16:25:36,308 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication

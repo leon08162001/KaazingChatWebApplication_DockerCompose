@@ -1,0 +1,508 @@
+2023-11-20 13:51:19,072 [7] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 13:51:19,256 [7] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 13:51:21,565 [14] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 13:51:21,571 [13] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 13:51:22,402 [7] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   於 Dapper.SqlMapper.ExecuteScalarImpl[T](IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 2841
+   於 Dapper.SqlMapper.ExecuteScalar[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 484
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 758
+2023-11-20 13:51:43,582 [15] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 13:51:43,590 [13] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 13:52:01,546 [13] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 13:52:01,557 [10] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 13:53:28,905 [12] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 13:54:08,787 [12] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 13:58:20,953 [9] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 13:58:23,455 [9] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 13:59:14,999 [10] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 13:59:17,523 [8] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 14:01:08,968 [8] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 14:01:11,062 [8] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 14:03:57,529 [8] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 14:04:01,860 [44] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 14:23:36,204 [108] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatToday(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 882
+2023-11-20 14:23:42,863 [93] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+System.Data.SqlTypes.SqlTypeException: SqlDateTime 溢位。必須在 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之間
+   於 System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 於 /_/Dapper/SqlMapper.cs: 行 1055
+   於 Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() 於 /_/Dapper/SqlMapper.cs: 行 1083
+   於 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   於 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   於 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 725
+   於 KaazingTestWebApplication.Controllers.WebChatController.GetChatHistory(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 937
+2023-11-20 14:28:06,674 [81] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a readed message to K(K：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="927e1a1c-839a-4153-9df2-332eeffe0dc2">(11-20 14:28:06)</span><span class="tabbed">已讀</span>(11-20 14:28:06))
+2023-11-20 14:28:06,678 [81] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:28:14,143 [82] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a message to K(C：<pre class="defaultfont" style="display: inline;">ccc</pre><span class="tabbed" id="ae72d91e-a99c-43a9-a9f1-e8365571cc23">(11-20 14:28:14)</span>)
+2023-11-20 14:28:14,144 [82] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-20 14:28:19,198 [81] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a message to K(C：<pre class="defaultfont" style="display: inline;">wqe</pre><span class="tabbed" id="65d620a5-2900-415f-8cbb-497815aec471">(11-20 14:28:19)</span>)
+2023-11-20 14:28:19,199 [81] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-11-20 14:28:26,204 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a readed message to <SPAN ID="01F0AA75-18EF-40F6-B82C-5E26F03B17CD">K(<span id="01f0aa75-18ef-40f6-b82c-5e26f03b17cd">K：傳送檔案中，請稍後...(11-20 14:28:26)</span><span class="tabbed">已讀</span>(11-20 14:28:26))
+2023-11-20 14:28:26,204 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:28:30,248 [81] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a received message to K(C：Tifa Cloud ～FF7 Remake～.mp3<span class="tabbed">已收</span>(11-20 14:28:30))
+2023-11-20 14:28:30,249 [81] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:28:44,060 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a file message to K(<span id="d981037f-6605-4866-9319-6a721e468cdf">C：傳送檔案中，請稍後...(11-20 14:28:44)</span>)
+2023-11-20 14:28:44,061 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:28:45,052 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a file to K(彭佳慧 - 心之火.mp3)
+2023-11-20 14:28:45,061 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(彭佳慧 - 心之火.mp3) from KaazingChatWebApplication
+2023-11-20 14:29:20,945 [87] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a readed message to <SPAN ID="015E4721-00F2-4CA9-B71A-9C132B69C185">K(<span id="015e4721-00f2-4ca9-b71a-9c132b69c185">K：傳送檔案中，請稍後...(11-20 14:29:20)</span><span class="tabbed">已讀</span>(11-20 14:29:20))
+2023-11-20 14:29:20,946 [87] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:29:20,945 [90] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a readed message to <SPAN ID="9874678C-A20A-41D6-B718-12C9C815F526">K(<span id="9874678c-a20a-41d6-b718-12c9c815f526">K：傳送檔案中，請稍後...(11-20 14:29:20)</span><span class="tabbed">已讀</span>(11-20 14:29:20))
+2023-11-20 14:29:20,948 [90] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:29:22,100 [83] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a received message to K(C：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(11-20 14:29:21))
+2023-11-20 14:29:22,100 [83] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:29:22,100 [103] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a received message to K(C：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(11-20 14:29:21))
+2023-11-20 14:29:22,102 [103] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:29:38,478 [67] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a file message to A(<span id="bd304e0d-2bc3-4f93-af3a-573e0f59909c">C：傳送檔案中，請稍後...(11-20 14:29:38)</span>)
+2023-11-20 14:29:38,479 [67] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:29:38,778 [90] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a file to A(第一意外險100元-DM.pdf)
+2023-11-20 14:29:38,779 [90] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-11-20 14:29:56,929 [56] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a file message to K(<span id="4bf8c530-60c5-4cfc-85ca-852232b0170f">C：傳送檔案中，請稍後...(11-20 14:29:56)</span>)
+2023-11-20 14:29:56,930 [56] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-11-20 14:29:57,117 [100] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a file to K(F-網技工會退保通知函.pdf)
+2023-11-20 14:29:57,119 [100] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-11-20 16:01:45,613 [18] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:02:16,103 [20] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:03:11,004 [25] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:03:12,248 [30] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:03:13,091 [28] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:03:37,597 [19] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:03:38,833 [22] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:05:09,990 [34] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:06:18,513 [20] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:07:29,864 [30] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:14:15,235 [24] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:38:14,927 [14] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-11-20 16:38:29,556 [13] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - HttpResponseException:An unhandled exception was thrown by Custom Web API exception handler(處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。)
+System.Web.Http.HttpResponseException: 處理 HTTP 要求時發生例外狀況。請參閱這個例外狀況的 'Response' 屬性傳回的 HTTP 回應，以取得詳細資料。
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger, CancellationToken cancellationToken)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.ReadContentAsync(HttpRequestMessage request, Type type, IEnumerable`1 formatters, IFormatterLogger formatterLogger)
+   於 System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()

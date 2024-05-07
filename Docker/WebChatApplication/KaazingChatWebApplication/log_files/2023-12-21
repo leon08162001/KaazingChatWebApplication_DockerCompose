@@ -1,0 +1,153 @@
+2023-12-21 14:54:10.1828|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：<span id="933e3647-af6a-46eb-9473-535a73704e30">C：傳送檔案中，請稍後...(12-21 14:54:09)</span>
+
+2023-12-21 14:54:10.3062|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：<span id="933e3647-af6a-46eb-9473-535a73704e30">C：傳送檔案中，請稍後...(12-21 14:54:09)</span><span class="tabbed">已讀</span>(12-21 14:54:10)
+
+2023-12-21 14:54:11.6126|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：1，totalSequence：48)
+
+2023-12-21 14:54:11.7612|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：2，totalSequence：48)
+
+2023-12-21 14:54:11.9543|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：3，totalSequence：48)
+
+2023-12-21 14:54:12.0079|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：4，totalSequence：48)
+
+2023-12-21 14:54:12.1204|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：5，totalSequence：48)
+
+2023-12-21 14:54:12.2269|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：6，totalSequence：48)
+
+2023-12-21 14:54:12.2865|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：7，totalSequence：48)
+
+2023-12-21 14:54:12.3805|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：8，totalSequence：48)
+
+2023-12-21 14:54:12.4420|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：9，totalSequence：48)
+
+2023-12-21 14:54:12.5374|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：10，totalSequence：48)
+
+2023-12-21 14:54:12.6039|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：11，totalSequence：48)
+
+2023-12-21 14:54:12.7910|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：12，totalSequence：48)
+
+2023-12-21 14:54:12.8790|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：13，totalSequence：48)
+
+2023-12-21 14:54:12.9805|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：14，totalSequence：48)
+
+2023-12-21 14:54:13.1086|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：15，totalSequence：48)
+
+2023-12-21 14:54:13.3067|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：16，totalSequence：48)
+
+2023-12-21 14:54:13.3822|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：17，totalSequence：48)
+
+2023-12-21 14:54:13.4958|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：18，totalSequence：48)
+
+2023-12-21 14:54:13.6103|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：19，totalSequence：48)
+
+2023-12-21 14:54:13.7179|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：20，totalSequence：48)
+
+2023-12-21 14:54:13.7924|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：21，totalSequence：48)
+
+2023-12-21 14:54:13.8634|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：22，totalSequence：48)
+
+2023-12-21 14:54:13.9728|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：23，totalSequence：48)
+
+2023-12-21 14:54:14.1059|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：24，totalSequence：48)
+
+2023-12-21 14:54:14.2065|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：25，totalSequence：48)
+
+2023-12-21 14:54:14.2840|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：26，totalSequence：48)
+
+2023-12-21 14:54:14.3530|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：27，totalSequence：48)
+
+2023-12-21 14:54:14.4616|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：28，totalSequence：48)
+
+2023-12-21 14:54:14.5771|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：29，totalSequence：48)
+
+2023-12-21 14:54:14.7843|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：30，totalSequence：48)
+
+2023-12-21 14:54:14.8949|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：31，totalSequence：48)
+
+2023-12-21 14:54:15.0104|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：32，totalSequence：48)
+
+2023-12-21 14:54:15.1100|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：33，totalSequence：48)
+
+2023-12-21 14:54:15.1750|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：34，totalSequence：48)
+
+2023-12-21 14:54:15.3812|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：35，totalSequence：48)
+
+2023-12-21 14:54:15.4447|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：36，totalSequence：48)
+
+2023-12-21 14:54:15.5061|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：37，totalSequence：48)
+
+2023-12-21 14:54:15.6226|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：38，totalSequence：48)
+
+2023-12-21 14:54:15.7967|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：39，totalSequence：48)
+
+2023-12-21 14:54:15.8577|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：40，totalSequence：48)
+
+2023-12-21 14:54:15.9683|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：41，totalSequence：48)
+
+2023-12-21 14:54:16.0468|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：42，totalSequence：48)
+
+2023-12-21 14:54:16.1724|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：43，totalSequence：48)
+
+2023-12-21 14:54:16.2790|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：44，totalSequence：48)
+
+2023-12-21 14:54:16.3435|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：45，totalSequence：48)
+
+2023-12-21 14:54:16.4621|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：46，totalSequence：48)
+
+2023-12-21 14:54:16.5617|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：47，totalSequence：48)
+
+2023-12-21 14:54:17.0139|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a file by chunks(filename：apache-activemq-5.18.1-bin.zip，sequence：48，totalSequence：48)
+
+2023-12-21 14:54:21.4454|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A：apache-activemq-5.18.1-bin.zip<span class="tabbed">已收</span>(12-21 14:54:21)
+

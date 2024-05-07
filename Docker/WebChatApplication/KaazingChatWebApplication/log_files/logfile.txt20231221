@@ -1,0 +1,8 @@
+2023-12-21 14:54:10,255 [19] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a file message to A(<span id="933e3647-af6a-46eb-9473-535a73704e30">C：傳送檔案中，請稍後...(12-21 14:54:09)</span>)
+2023-12-21 14:54:10,310 [19] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-12-21 14:54:10,345 [26] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a readed message to C(<span id="933e3647-af6a-46eb-9473-535a73704e30">C：傳送檔案中，請稍後...(12-21 14:54:09)</span><span class="tabbed">已讀</span>(12-21 14:54:10))
+2023-12-21 14:54:10,346 [26] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-12-21 14:54:17,090 [44] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - C is sending a file to A(apache-activemq-5.18.1-bin.zip)
+2023-12-21 14:54:17,092 [44] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(apache-activemq-5.18.1-bin.zip) from KaazingChatWebApplication
+2023-12-21 14:54:21,487 [44] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - A is sending a received message to C(A：apache-activemq-5.18.1-bin.zip<span class="tabbed">已收</span>(12-21 14:54:21))
+2023-12-21 14:54:21,487 [44] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication

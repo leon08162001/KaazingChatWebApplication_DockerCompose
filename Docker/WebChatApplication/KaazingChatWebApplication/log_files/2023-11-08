@@ -1,0 +1,387 @@
+2023-11-08 08:43:41.0761|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">cs</pre><span class="tabbed" id="dd50c382-2f9f-49c4-9382-ca49f41727bb">(11-08 08:43:40)</span>
+
+2023-11-08 08:43:41.2796|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">cs</pre><span class="tabbed" id="dd50c382-2f9f-49c4-9382-ca49f41727bb">(11-08 08:43:40)</span><span class="tabbed">已讀</span>(11-08 08:43:41)
+
+2023-11-08 09:36:12.1780|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">B123456789</pre><span class="tabbed" id="50e33c62-7f73-4c02-82ca-4cf4d68752fb">(11-08 09:36:12)</span>
+
+2023-11-08 09:36:12.3770|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">B123456789</pre><span class="tabbed" id="50e33c62-7f73-4c02-82ca-4cf4d68752fb">(11-08 09:36:12)</span><span class="tabbed">已讀</span>(11-08 09:36:12)
+
+2023-11-08 09:36:22.6274|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">qq</pre><span class="tabbed" id="e8b05799-4ecc-475f-96d1-0563e14752dd">(11-08 09:36:22)</span>
+
+2023-11-08 09:36:22.8508|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">qq</pre><span class="tabbed" id="e8b05799-4ecc-475f-96d1-0563e14752dd">(11-08 09:36:22)</span><span class="tabbed">已讀</span>(11-08 09:36:22)
+
+2023-11-08 09:36:54.9099|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">C123456789</pre><span class="tabbed" id="fd505015-4ffd-48ca-840f-446b773f0463">(11-08 09:36:54)</span>
+
+2023-11-08 09:36:55.0264|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">C123456789</pre><span class="tabbed" id="fd505015-4ffd-48ca-840f-446b773f0463">(11-08 09:36:54)</span><span class="tabbed">已讀</span>(11-08 09:36:54)
+
+2023-11-08 09:37:22.8923|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">DD</pre><span class="tabbed" id="9d667f7c-e8bd-490d-8909-0612869e669e">(11-08 09:37:22)</span>
+
+2023-11-08 09:37:23.0087|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">DD</pre><span class="tabbed" id="9d667f7c-e8bd-490d-8909-0612869e669e">(11-08 09:37:22)</span><span class="tabbed">已讀</span>(11-08 09:37:22)
+
+2023-11-08 09:37:31.8258|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">dsv</pre><span class="tabbed" id="ce0fce74-ba78-4375-ab3c-c5d89832664c">(11-08 09:37:31)</span>
+
+2023-11-08 09:37:31.9754|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">dsv</pre><span class="tabbed" id="ce0fce74-ba78-4375-ab3c-c5d89832664c">(11-08 09:37:31)</span><span class="tabbed">已讀</span>(11-08 09:37:31)
+
+2023-11-08 09:37:59.3257|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">qq</pre><span class="tabbed" id="df7dd491-675f-4e20-8787-2e2cfe76ae0b">(11-08 09:37:59)</span>
+
+2023-11-08 09:38:23.3579|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">rgrg</pre><span class="tabbed" id="973d277b-6556-43c8-8557-84cee830f171">(11-08 09:38:23)</span>
+
+2023-11-08 09:39:36.7399|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">fwq</pre><span class="tabbed" id="cdafaac2-0fba-42af-9b34-ab4430963961">(11-08 09:39:36)</span>
+
+2023-11-08 09:39:36.8398|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">fwq</pre><span class="tabbed" id="cdafaac2-0fba-42af-9b34-ab4430963961">(11-08 09:39:36)</span><span class="tabbed">已讀</span>(11-08 09:39:36)
+
+2023-11-08 09:40:17.0389|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">asf</pre><span class="tabbed" id="e3af934f-5997-47d6-bba3-468515dbc314">(11-08 09:40:16)</span>
+
+2023-11-08 09:40:17.2388|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">asf</pre><span class="tabbed" id="e3af934f-5997-47d6-bba3-468515dbc314">(11-08 09:40:16)</span><span class="tabbed">已讀</span>(11-08 09:40:17)
+
+2023-11-08 09:40:23.3201|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">wf</pre><span class="tabbed" id="0a032852-cfe0-4b06-a584-5ffe683c815b">(11-08 09:40:23)</span>
+
+2023-11-08 09:40:23.4554|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">wf</pre><span class="tabbed" id="0a032852-cfe0-4b06-a584-5ffe683c815b">(11-08 09:40:23)</span><span class="tabbed">已讀</span>(11-08 09:40:23)
+
+2023-11-08 09:40:46.7218|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">ddd</pre><span class="tabbed" id="6adf31a2-1528-4cdf-bffe-87e4d7577bce">(11-08 09:40:46)</span>
+
+2023-11-08 09:40:46.8722|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">ddd</pre><span class="tabbed" id="6adf31a2-1528-4cdf-bffe-87e4d7577bce">(11-08 09:40:46)</span><span class="tabbed">已讀</span>(11-08 09:40:46)
+
+2023-11-08 09:41:19.1883|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">vsa</pre><span class="tabbed" id="bc047a4e-538e-415b-8b98-624769c39be6">(11-08 09:41:19)</span>
+
+2023-11-08 09:41:20.2624|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">vsa</pre><span class="tabbed" id="bc047a4e-538e-415b-8b98-624769c39be6">(11-08 09:41:19)</span><span class="tabbed">已讀</span>(11-08 09:41:19)
+
+2023-11-08 09:41:56.6704|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">bbb</pre><span class="tabbed" id="ecf54b5c-778c-4762-8913-e9f6ecfb0b11">(11-08 09:41:56)</span>
+
+2023-11-08 09:42:03.3955|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">aaa</pre><span class="tabbed" id="0e248979-d134-43e6-a227-f964044b88a8">(11-08 09:42:03)</span>
+
+2023-11-08 09:42:03.6019|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">aaa</pre><span class="tabbed" id="0e248979-d134-43e6-a227-f964044b88a8">(11-08 09:42:03)</span><span class="tabbed">已讀</span>(11-08 09:42:03)
+
+2023-11-08 09:42:19.0875|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="ef588b29-3f61-4551-a538-46c74b2a4b65">(11-08 09:42:19)</span>
+
+2023-11-08 09:42:19.2860|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="ef588b29-3f61-4551-a538-46c74b2a4b65">(11-08 09:42:19)</span><span class="tabbed">已讀</span>(11-08 09:42:19)
+
+2023-11-08 09:43:13.6166|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">AAA</pre><span class="tabbed" id="b6e7ca35-b65d-4ac2-8bd8-cf2aa79e5d30">(11-08 09:43:13)</span>
+
+2023-11-08 09:43:18.3034|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">cs</pre><span class="tabbed" id="e3cc7b0d-436d-4d50-9180-290d7ed40df9">(11-08 09:43:18)</span>
+
+2023-11-08 09:43:18.5188|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">cs</pre><span class="tabbed" id="e3cc7b0d-436d-4d50-9180-290d7ed40df9">(11-08 09:43:18)</span><span class="tabbed">已讀</span>(11-08 09:43:18)
+
+2023-11-08 09:54:57.4055|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">bbb</pre><span class="tabbed" id="ecf54b5c-778c-4762-8913-e9f6ecfb0b11">(11-08 09:41:56)</span><span class="tabbed">已讀</span>(11-08 09:54:57)
+
+2023-11-08 09:54:57.4055|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">AAA</pre><span class="tabbed" id="b6e7ca35-b65d-4ac2-8bd8-cf2aa79e5d30">(11-08 09:43:13)</span><span class="tabbed">已讀</span>(11-08 09:54:57)
+
+2023-11-08 09:55:03.6047|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="8709d356-f957-4811-9eda-7bc2094fabb9">(11-08 09:55:03)</span>
+
+2023-11-08 09:55:03.8363|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="8709d356-f957-4811-9eda-7bc2094fabb9">(11-08 09:55:03)</span><span class="tabbed">已讀</span>(11-08 09:55:03)
+
+2023-11-08 09:55:08.5044|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">www</pre><span class="tabbed" id="7e77681f-3c2f-421a-8b7c-4ad9f57b89e8">(11-08 09:55:08)</span>
+
+2023-11-08 09:55:08.6706|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">www</pre><span class="tabbed" id="7e77681f-3c2f-421a-8b7c-4ad9f57b89e8">(11-08 09:55:08)</span><span class="tabbed">已讀</span>(11-08 09:55:08)
+
+2023-11-08 09:56:26.7364|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">xa</pre><span class="tabbed" id="c1e74dde-49b9-4ab4-9d77-638278eb5139">(11-08 09:56:26)</span>
+
+2023-11-08 09:56:26.8364|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">xa</pre><span class="tabbed" id="c1e74dde-49b9-4ab4-9d77-638278eb5139">(11-08 09:56:26)</span><span class="tabbed">已讀</span>(11-08 09:56:26)
+
+2023-11-08 09:56:31.2691|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">qw</pre><span class="tabbed" id="81a28476-afcd-4e0a-8c2f-58a828210d9c">(11-08 09:56:31)</span>
+
+2023-11-08 09:56:31.4186|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">qw</pre><span class="tabbed" id="81a28476-afcd-4e0a-8c2f-58a828210d9c">(11-08 09:56:31)</span><span class="tabbed">已讀</span>(11-08 09:56:31)
+
+2023-11-08 09:56:40.8521|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">11</pre><span class="tabbed" id="95d6ed2e-6f64-49e9-bfc9-67bfec90f062">(11-08 09:56:40)</span>
+
+2023-11-08 09:56:41.0176|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">11</pre><span class="tabbed" id="95d6ed2e-6f64-49e9-bfc9-67bfec90f062">(11-08 09:56:40)</span><span class="tabbed">已讀</span>(11-08 09:56:40)
+
+2023-11-08 09:56:44.0685|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">e2e</pre><span class="tabbed" id="21a823ee-520f-4379-af8d-4336d6867886">(11-08 09:56:44)</span>
+
+2023-11-08 09:56:44.2393|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">e2e</pre><span class="tabbed" id="21a823ee-520f-4379-af8d-4336d6867886">(11-08 09:56:44)</span><span class="tabbed">已讀</span>(11-08 09:56:44)
+
+2023-11-08 09:56:52.4537|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">2e1</pre><span class="tabbed" id="edda60dc-a9df-4552-ae90-5ecf8f3cd819">(11-08 09:56:52)</span>
+
+2023-11-08 09:56:52.6019|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">2e1</pre><span class="tabbed" id="edda60dc-a9df-4552-ae90-5ecf8f3cd819">(11-08 09:56:52)</span><span class="tabbed">已讀</span>(11-08 09:56:52)
+
+2023-11-08 09:57:16.5010|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">123</pre><span class="tabbed" id="b0feadb2-ab80-4213-b78f-3c1a24a116ba">(11-08 09:57:16)</span>
+
+2023-11-08 09:57:16.6842|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">123</pre><span class="tabbed" id="b0feadb2-ab80-4213-b78f-3c1a24a116ba">(11-08 09:57:16)</span><span class="tabbed">已讀</span>(11-08 09:57:16)
+
+2023-11-08 09:57:20.8847|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：D123456789：<pre class="defaultfont" style="display: inline;">333</pre><span class="tabbed" id="c7d05d55-a2b6-4ff7-bca1-619007ba6b2a">(11-08 09:57:20)</span>
+
+2023-11-08 09:57:21.0519|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：D123456789：<pre class="defaultfont" style="display: inline;">333</pre><span class="tabbed" id="c7d05d55-a2b6-4ff7-bca1-619007ba6b2a">(11-08 09:57:20)</span><span class="tabbed">已讀</span>(11-08 09:57:20)
+
+2023-11-08 09:58:12.0334|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">e</pre><span class="tabbed" id="dec83b0a-4dd7-422e-814b-990a4a200d21">(11-08 09:58:11)</span>
+
+2023-11-08 09:58:12.1669|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">e</pre><span class="tabbed" id="dec83b0a-4dd7-422e-814b-990a4a200d21">(11-08 09:58:11)</span><span class="tabbed">已讀</span>(11-08 09:58:12)
+
+2023-11-08 09:58:15.0336|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="1fa70579-c08e-4238-b40d-1a329781de83">(11-08 09:58:14)</span>
+
+2023-11-08 09:58:15.2403|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="1fa70579-c08e-4238-b40d-1a329781de83">(11-08 09:58:14)</span><span class="tabbed">已讀</span>(11-08 09:58:15)
+
+2023-11-08 10:00:07.9986|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：D123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="d1c6f446-f192-4091-b902-87146fad5e89">(11-08 10:00:07)</span>
+
+2023-11-08 10:00:08.1914|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：D123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="d1c6f446-f192-4091-b902-87146fad5e89">(11-08 10:00:07)</span><span class="tabbed">已讀</span>(11-08 10:00:08)
+
+2023-11-08 10:48:32.7926|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ddd</pre><span class="tabbed" id="935e0063-623e-4a8b-9295-5ffc82255ad0">(11-08 10:48:32)</span>
+
+2023-11-08 10:48:32.9925|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ddd</pre><span class="tabbed" id="935e0063-623e-4a8b-9295-5ffc82255ad0">(11-08 10:48:32)</span><span class="tabbed">已讀</span>(11-08 10:48:32)
+
+2023-11-08 10:52:10.4381|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="35be1c03-2dfc-4132-91cb-81d8aa54e289">(11-08 10:52:10)</span>
+
+2023-11-08 10:52:14.9042|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">eee</pre><span class="tabbed" id="bf2e51df-79ca-42c5-b94e-a1f12647774f">(11-08 10:52:14)</span>
+
+2023-11-08 10:52:15.0542|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">eee</pre><span class="tabbed" id="bf2e51df-79ca-42c5-b94e-a1f12647774f">(11-08 10:52:14)</span><span class="tabbed">已讀</span>(11-08 10:52:14)
+
+2023-11-08 10:52:53.3378|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ff</pre><span class="tabbed" id="5822999b-7716-4d3a-9fa0-c5d82cc61c44">(11-08 10:52:53)</span>
+
+2023-11-08 10:52:53.4547|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ff</pre><span class="tabbed" id="5822999b-7716-4d3a-9fa0-c5d82cc61c44">(11-08 10:52:53)</span><span class="tabbed">已讀</span>(11-08 10:52:53)
+
+2023-11-08 10:52:57.5706|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="cfc30973-3eb0-4911-ab76-cae2c1d0fa5b">(11-08 10:52:57)</span>
+
+2023-11-08 10:53:31.8031|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">c</pre><span class="tabbed" id="6c012f1d-94fd-4720-b774-934e23bcf11b">(11-08 10:53:31)</span>
+
+2023-11-08 10:53:31.9533|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">c</pre><span class="tabbed" id="6c012f1d-94fd-4720-b774-934e23bcf11b">(11-08 10:53:31)</span><span class="tabbed">已讀</span>(11-08 10:53:31)
+
+2023-11-08 10:53:35.2862|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="e588b84a-e01e-49a2-b369-070e166d6cbf">(11-08 10:53:35)</span>
+
+2023-11-08 10:53:35.4028|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="e588b84a-e01e-49a2-b369-070e166d6cbf">(11-08 10:53:35)</span><span class="tabbed">已讀</span>(11-08 10:53:35)
+
+2023-11-08 10:55:25.3560|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="35be1c03-2dfc-4132-91cb-81d8aa54e289">(11-08 10:52:10)</span><span class="tabbed">已讀</span>(11-08 10:55:25)
+
+2023-11-08 10:55:25.3560|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="cfc30973-3eb0-4911-ab76-cae2c1d0fa5b">(11-08 10:52:57)</span><span class="tabbed">已讀</span>(11-08 10:55:25)
+
+2023-11-08 10:55:30.3173|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">wd</pre><span class="tabbed" id="67c528dc-ff04-4d6a-aaac-925726dad621">(11-08 10:55:30)</span>
+
+2023-11-08 10:55:30.4495|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">wd</pre><span class="tabbed" id="67c528dc-ff04-4d6a-aaac-925726dad621">(11-08 10:55:30)</span><span class="tabbed">已讀</span>(11-08 10:55:30)
+
+2023-11-08 10:55:49.5654|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">www</pre><span class="tabbed" id="4b021c73-f9a6-4536-aa76-f0869e668681">(11-08 10:55:49)</span>
+
+2023-11-08 10:55:56.6179|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">xwxw</pre><span class="tabbed" id="7f897042-8a0c-4ead-be0f-f824a24b9d2c">(11-08 10:55:56)</span>
+
+2023-11-08 10:55:56.7833|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">xwxw</pre><span class="tabbed" id="7f897042-8a0c-4ead-be0f-f824a24b9d2c">(11-08 10:55:56)</span><span class="tabbed">已讀</span>(11-08 10:55:56)
+
+2023-11-08 10:56:03.4845|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="58e9d66c-0ce5-41fe-9e8a-b110d11cc2a4">(11-08 10:56:03)</span>
+
+2023-11-08 11:00:16.6777|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sq</pre><span class="tabbed" id="2d8dc40e-3c13-47f5-88bb-e1e06e0716ff">(11-08 11:00:16)</span>
+
+2023-11-08 11:00:28.6846|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">www</pre><span class="tabbed" id="4b021c73-f9a6-4536-aa76-f0869e668681">(11-08 10:55:49)</span><span class="tabbed">已讀</span>(11-08 11:00:28)
+
+2023-11-08 11:00:28.7968|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="58e9d66c-0ce5-41fe-9e8a-b110d11cc2a4">(11-08 10:56:03)</span><span class="tabbed">已讀</span>(11-08 11:00:28)
+
+2023-11-08 11:00:29.5316|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sq</pre><span class="tabbed" id="2d8dc40e-3c13-47f5-88bb-e1e06e0716ff">(11-08 11:00:16)</span><span class="tabbed">已讀</span>(11-08 11:00:28)
+
+2023-11-08 11:00:32.0452|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9ff62d66-ace3-4bc2-8e6e-fc037055c4ea">(11-08 11:00:31)</span>
+
+2023-11-08 11:00:32.1782|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9ff62d66-ace3-4bc2-8e6e-fc037055c4ea">(11-08 11:00:31)</span><span class="tabbed">已讀</span>(11-08 11:00:32)
+
+2023-11-08 11:01:08.7279|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ca</pre><span class="tabbed" id="ca10bcd2-c929-496d-914e-8f709025b24c">(11-08 11:01:08)</span>
+
+2023-11-08 11:01:08.8606|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ca</pre><span class="tabbed" id="ca10bcd2-c929-496d-914e-8f709025b24c">(11-08 11:01:08)</span><span class="tabbed">已讀</span>(11-08 11:01:08)
+
+2023-11-08 11:01:17.0271|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sc</pre><span class="tabbed" id="1c7983d6-0323-43c6-919e-415ca88096e0">(11-08 11:01:16)</span>
+
+2023-11-08 11:02:47.3586|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">dsb</pre><span class="tabbed" id="5f6e44a3-109d-4935-a1c7-a56a7b6c7079">(11-08 11:02:47)</span>
+
+2023-11-08 11:02:47.5236|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">dsb</pre><span class="tabbed" id="5f6e44a3-109d-4935-a1c7-a56a7b6c7079">(11-08 11:02:47)</span><span class="tabbed">已讀</span>(11-08 11:02:47)
+
+2023-11-08 11:03:06.1088|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sc</pre><span class="tabbed" id="1c7983d6-0323-43c6-919e-415ca88096e0">(11-08 11:01:16)</span><span class="tabbed">已讀</span>(11-08 11:03:05)
+
+2023-11-08 11:03:09.7933|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">fff</pre><span class="tabbed" id="5c6dfb52-0054-447d-86c2-158d66406472">(11-08 11:03:09)</span>
+
+2023-11-08 11:03:10.0252|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">fff</pre><span class="tabbed" id="5c6dfb52-0054-447d-86c2-158d66406472">(11-08 11:03:09)</span><span class="tabbed">已讀</span>(11-08 11:03:09)
+
+2023-11-08 11:03:13.2256|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">fgge</pre><span class="tabbed" id="82053b16-8636-4132-8f15-575645e21f88">(11-08 11:03:13)</span>
+
+2023-11-08 11:03:13.3753|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">fgge</pre><span class="tabbed" id="82053b16-8636-4132-8f15-575645e21f88">(11-08 11:03:13)</span><span class="tabbed">已讀</span>(11-08 11:03:13)
+
+2023-11-08 11:04:32.1068|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">AAA</pre><span class="tabbed" id="75e22ca4-f8e9-481e-a522-b7a93f7f8782">(11-08 11:04:32)</span>
+
+2023-11-08 11:04:32.3064|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">AAA</pre><span class="tabbed" id="75e22ca4-f8e9-481e-a522-b7a93f7f8782">(11-08 11:04:32)</span><span class="tabbed">已讀</span>(11-08 11:04:32)
+
+2023-11-08 11:06:39.8628|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">cs</pre><span class="tabbed" id="dd50c382-2f9f-49c4-9382-ca49f41727bb">(11-08 08:43:40)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:06:39.8628|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">C123456789</pre><span class="tabbed" id="fd505015-4ffd-48ca-840f-446b773f0463">(11-08 09:36:54)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:06:39.8784|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">B123456789</pre><span class="tabbed" id="50e33c62-7f73-4c02-82ca-4cf4d68752fb">(11-08 09:36:12)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:07.1878|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">AAA</pre><span class="tabbed" id="b6e7ca35-b65d-4ac2-8bd8-cf2aa79e5d30">(11-08 09:43:13)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:07.1878|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sss</pre><span class="tabbed" id="58e9d66c-0ce5-41fe-9e8a-b110d11cc2a4">(11-08 10:56:03)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:09.1847|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">c</pre><span class="tabbed" id="6c012f1d-94fd-4720-b774-934e23bcf11b">(11-08 10:53:31)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:10.9159|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">xxx</pre><span class="tabbed" id="9ff62d66-ace3-4bc2-8e6e-fc037055c4ea">(11-08 11:00:31)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:10.9159|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">e</pre><span class="tabbed" id="dec83b0a-4dd7-422e-814b-990a4a200d21">(11-08 09:58:11)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:10.9469|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">www</pre><span class="tabbed" id="4b021c73-f9a6-4536-aa76-f0869e668681">(11-08 10:55:49)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:11.0556|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="8709d356-f957-4811-9eda-7bc2094fabb9">(11-08 09:55:03)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:11.0556|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">sq</pre><span class="tabbed" id="2d8dc40e-3c13-47f5-88bb-e1e06e0716ff">(11-08 11:00:16)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 11:07:11.0698|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">bbb</pre><span class="tabbed" id="ecf54b5c-778c-4762-8913-e9f6ecfb0b11">(11-08 09:41:56)</span><span class="tabbed">已讀</span>(11-08 11:06:39)
+
+2023-11-08 14:06:39.3271|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">qq</pre><span class="tabbed" id="e8b05799-4ecc-475f-96d1-0563e14752dd">(11-08 09:36:22)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:06:39.3271|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">dsv</pre><span class="tabbed" id="ce0fce74-ba78-4375-ab3c-c5d89832664c">(11-08 09:37:31)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:06:39.3271|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">DD</pre><span class="tabbed" id="9d667f7c-e8bd-490d-8909-0612869e669e">(11-08 09:37:22)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:06:39.3271|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">aaa</pre><span class="tabbed" id="0e248979-d134-43e6-a227-f964044b88a8">(11-08 09:42:03)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:06:39.3271|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">asf</pre><span class="tabbed" id="e3af934f-5997-47d6-bba3-468515dbc314">(11-08 09:40:16)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.8028|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">qqq</pre><span class="tabbed" id="ef588b29-3f61-4551-a538-46c74b2a4b65">(11-08 09:42:19)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.8185|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">xwxw</pre><span class="tabbed" id="7f897042-8a0c-4ead-be0f-f824a24b9d2c">(11-08 10:55:56)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.8185|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">www</pre><span class="tabbed" id="7e77681f-3c2f-421a-8b7c-4ad9f57b89e8">(11-08 09:55:08)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.8185|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">fgge</pre><span class="tabbed" id="82053b16-8636-4132-8f15-575645e21f88">(11-08 11:03:13)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.8341|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">qw</pre><span class="tabbed" id="81a28476-afcd-4e0a-8c2f-58a828210d9c">(11-08 09:56:31)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.9596|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="1fa70579-c08e-4238-b40d-1a329781de83">(11-08 09:58:14)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.9596|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ddd</pre><span class="tabbed" id="935e0063-623e-4a8b-9295-5ffc82255ad0">(11-08 10:48:32)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.9752|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ff</pre><span class="tabbed" id="5822999b-7716-4d3a-9fa0-c5d82cc61c44">(11-08 10:52:53)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:14.9908|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">eee</pre><span class="tabbed" id="bf2e51df-79ca-42c5-b94e-a1f12647774f">(11-08 10:52:14)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:15.0225|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">cs</pre><span class="tabbed" id="e3cc7b0d-436d-4d50-9180-290d7ed40df9">(11-08 09:43:18)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:15.6190|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">ca</pre><span class="tabbed" id="ca10bcd2-c929-496d-914e-8f709025b24c">(11-08 11:01:08)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:15.6190|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="e588b84a-e01e-49a2-b369-070e166d6cbf">(11-08 10:53:35)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:15.6190|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：A123456789：<pre class="defaultfont" style="display: inline;">dsb</pre><span class="tabbed" id="5f6e44a3-109d-4935-a1c7-a56a7b6c7079">(11-08 11:02:47)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:15.6503|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：B123456789：<pre class="defaultfont" style="display: inline;">AAA</pre><span class="tabbed" id="75e22ca4-f8e9-481e-a522-b7a93f7f8782">(11-08 11:04:32)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:15.7132|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：D123456789：<pre class="defaultfont" style="display: inline;">d</pre><span class="tabbed" id="d1c6f446-f192-4091-b902-87146fad5e89">(11-08 10:00:07)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+
+2023-11-08 14:07:15.7601|INFO|Common.LogHelper.NLogProvider|Exception Type:Common.LinkLayer.BaseWebSocketAdapter 
+Message:Sending a message(message：C123456789：<pre class="defaultfont" style="display: inline;">e2e</pre><span class="tabbed" id="21a823ee-520f-4379-af8d-4336d6867886">(11-08 09:56:44)</span><span class="tabbed">已讀</span>(11-08 14:06:38)
+

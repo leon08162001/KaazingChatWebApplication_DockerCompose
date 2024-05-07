@@ -1,0 +1,72 @@
+2023-10-24 14:27:41,322 [44] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (C, C, 10 24 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (C, C, 10 24 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 767
+ClientConnectionId:0034d508-86a6-4aaa-952a-d954f9d0457b
+Error Number:2627,State:1,Class:14
+2023-10-24 14:27:41,322 [41] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (C, C, 10 24 2023 12:00AM)。
+陳述式已經結束。
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'PK_ChatDialogue'。無法在物件 'dbo.ChatDialogue' 中插入重複的索引鍵。重複的索引鍵值是 (C, C, 10 24 2023 12:00AM)。
+陳述式已經結束。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) 於 /_/Dapper/SqlMapper.cs: 行 2813
+   於 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) 於 /_/Dapper/SqlMapper.cs: 行 572
+   於 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 於 /_/Dapper/SqlMapper.cs: 行 443
+   於 KaazingTestWebApplication.Controllers.WebChatController.ChatUpdate(Chat Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 767
+ClientConnectionId:bf5fb6e7-c8f8-48aa-a0fd-f69d6bd9cc2a
+Error Number:2627,State:1,Class:14
+2023-10-24 14:27:51,837 [74] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 索引在陣列的界限之外。
+System.IndexOutOfRangeException: 索引在陣列的界限之外。
+   於 KaazingTestWebApplication.Controllers.WebChatController.SendAjaxMessageToServer(MessageModel Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 177
+2023-10-24 14:31:14,891 [39] ERROR KaazingTestWebApplication.Controllers.WebChatController [(null)] - 索引在陣列的界限之外。
+System.IndexOutOfRangeException: 索引在陣列的界限之外。
+   於 KaazingTestWebApplication.Controllers.WebChatController.SendAjaxMessageToServer(MessageModel Message) 於 D:\LeonLee\Azure Git\KaazingChatWebApplication\KaazingChatWebApplication\Api\Controllers\WebChatController.cs: 行 177
+2023-10-24 17:35:25,784 [78] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - TaskCanceledException:An unhandled exception was thrown by Custom Web API exception handler(工作已取消。)
+System.Threading.Tasks.TaskCanceledException: 工作已取消。
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2023-10-24 17:35:25,796 [44] ERROR KaazingTestWebApplication.WebApiExceptionFilter [(null)] - TaskCanceledException:An unhandled exception was thrown by Custom Web API exception handler(工作已取消。)
+System.Threading.Tasks.TaskCanceledException: 工作已取消。
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()

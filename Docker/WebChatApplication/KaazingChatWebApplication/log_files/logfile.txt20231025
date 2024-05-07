@@ -1,0 +1,404 @@
+2023-10-25 08:40:05,872 [93] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a message to AA(BB：<pre class="defaultfont" style="display: inline;">BB</pre><span class="tabbed" id="af5620f4-49b4-44ea-928c-bc259290208a">(10-25 08:40:05)</span>)
+2023-10-25 08:40:05,888 [93] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a message to CC(BB：<pre class="defaultfont" style="display: inline;">BB</pre><span class="tabbed" id="af5620f4-49b4-44ea-928c-bc259290208a">(10-25 08:40:05)</span>)
+2023-10-25 08:40:05,903 [93] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a message to DD(BB：<pre class="defaultfont" style="display: inline;">BB</pre><span class="tabbed" id="af5620f4-49b4-44ea-928c-bc259290208a">(10-25 08:40:05)</span>)
+2023-10-25 08:40:05,903 [93] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-25 08:40:05,998 [124] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(BB：<pre class="defaultfont" style="display: inline;">BB</pre><span class="tabbed" id="af5620f4-49b4-44ea-928c-bc259290208a">(10-25 08:40:05)</span><span class="tabbed">已讀</span>(10-25 08:40:05))
+2023-10-25 08:40:05,998 [124] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:05,998 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(BB：<pre class="defaultfont" style="display: inline;">BB</pre><span class="tabbed" id="af5620f4-49b4-44ea-928c-bc259290208a">(10-25 08:40:05)</span><span class="tabbed">已讀</span>(10-25 08:40:05))
+2023-10-25 08:40:05,998 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:06,045 [93] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(BB：<pre class="defaultfont" style="display: inline;">BB</pre><span class="tabbed" id="af5620f4-49b4-44ea-928c-bc259290208a">(10-25 08:40:05)</span><span class="tabbed">已讀</span>(10-25 08:40:05))
+2023-10-25 08:40:06,045 [93] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:20,334 [127] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a message to AA(CC：<pre class="defaultfont" style="display: inline;">CC</pre><span class="tabbed" id="3b138bc5-f016-42e9-b98e-df7311d1e1f1">(10-25 08:40:20)</span>)
+2023-10-25 08:40:20,350 [127] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a message to BB(CC：<pre class="defaultfont" style="display: inline;">CC</pre><span class="tabbed" id="3b138bc5-f016-42e9-b98e-df7311d1e1f1">(10-25 08:40:20)</span>)
+2023-10-25 08:40:20,365 [127] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a message to DD(CC：<pre class="defaultfont" style="display: inline;">CC</pre><span class="tabbed" id="3b138bc5-f016-42e9-b98e-df7311d1e1f1">(10-25 08:40:20)</span>)
+2023-10-25 08:40:20,365 [127] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-25 08:40:20,365 [120] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to CC(CC：<pre class="defaultfont" style="display: inline;">CC</pre><span class="tabbed" id="3b138bc5-f016-42e9-b98e-df7311d1e1f1">(10-25 08:40:20)</span><span class="tabbed">已讀</span>(10-25 08:40:20))
+2023-10-25 08:40:20,365 [120] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:20,412 [29] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to CC(CC：<pre class="defaultfont" style="display: inline;">CC</pre><span class="tabbed" id="3b138bc5-f016-42e9-b98e-df7311d1e1f1">(10-25 08:40:20)</span><span class="tabbed">已讀</span>(10-25 08:40:20))
+2023-10-25 08:40:20,412 [29] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:20,412 [39] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to CC(CC：<pre class="defaultfont" style="display: inline;">CC</pre><span class="tabbed" id="3b138bc5-f016-42e9-b98e-df7311d1e1f1">(10-25 08:40:20)</span><span class="tabbed">已讀</span>(10-25 08:40:20))
+2023-10-25 08:40:20,412 [39] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:42,849 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to AA(<span id="3c40e0e1-154d-4daf-83d8-dd28d4379dab">BB：傳送檔案中，請稍後...(10-25 08:40:42)</span>)
+2023-10-25 08:40:42,865 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to CC(<span id="3c40e0e1-154d-4daf-83d8-dd28d4379dab">BB：傳送檔案中，請稍後...(10-25 08:40:42)</span>)
+2023-10-25 08:40:42,881 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to DD(<span id="3c40e0e1-154d-4daf-83d8-dd28d4379dab">BB：傳送檔案中，請稍後...(10-25 08:40:42)</span>)
+2023-10-25 08:40:42,881 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:42,881 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to <SPAN ID="3C40E0E1-154D-4DAF-83D8-DD28D4379DAB">BB(<span id="3c40e0e1-154d-4daf-83d8-dd28d4379dab">BB：傳送檔案中，請稍後...(10-25 08:40:42)</span><span class="tabbed">已讀</span>(10-25 08:40:42))
+2023-10-25 08:40:42,881 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:42,928 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to <SPAN ID="3C40E0E1-154D-4DAF-83D8-DD28D4379DAB">BB(<span id="3c40e0e1-154d-4daf-83d8-dd28d4379dab">BB：傳送檔案中，請稍後...(10-25 08:40:42)</span><span class="tabbed">已讀</span>(10-25 08:40:42))
+2023-10-25 08:40:42,928 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:42,945 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to <SPAN ID="3C40E0E1-154D-4DAF-83D8-DD28D4379DAB">BB(<span id="3c40e0e1-154d-4daf-83d8-dd28d4379dab">BB：傳送檔案中，請稍後...(10-25 08:40:42)</span><span class="tabbed">已讀</span>(10-25 08:40:42))
+2023-10-25 08:40:42,945 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:42,991 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(55.jpg)
+2023-10-25 08:40:42,991 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(55.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,038 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(56.jpg)
+2023-10-25 08:40:43,038 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(56.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,054 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(57.jpg)
+2023-10-25 08:40:43,054 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(57.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,070 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(58.jpg)
+2023-10-25 08:40:43,070 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(58.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,086 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(59.jpg)
+2023-10-25 08:40:43,086 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(59.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,101 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(60.jpg)
+2023-10-25 08:40:43,101 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(60.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,117 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(55.jpg)
+2023-10-25 08:40:43,117 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(55.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,133 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(56.jpg)
+2023-10-25 08:40:43,133 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(56.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,149 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(57.jpg)
+2023-10-25 08:40:43,149 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(57.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,164 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(58.jpg)
+2023-10-25 08:40:43,164 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(58.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,180 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(59.jpg)
+2023-10-25 08:40:43,180 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(59.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,227 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(60.jpg)
+2023-10-25 08:40:43,243 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(60.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:43,227 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：55.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:43,246 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:43,921 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(55.jpg)
+2023-10-25 08:40:43,921 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(55.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:45,118 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(56.jpg)
+2023-10-25 08:40:45,118 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(56.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:46,125 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(57.jpg)
+2023-10-25 08:40:46,125 [66] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：56.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:46,125 [66] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:46,125 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(57.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:47,636 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(58.jpg)
+2023-10-25 08:40:47,636 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(58.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:48,627 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(59.jpg)
+2023-10-25 08:40:48,627 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(59.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:48,627 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：60.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:48,627 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:48,627 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：59.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:48,627 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:49,635 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(60.jpg)
+2023-10-25 08:40:49,635 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：57.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:49,635 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:49,635 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(60.jpg) from KaazingChatWebApplication
+2023-10-25 08:40:50,643 [93] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：55.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:50,643 [67] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：58.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:50,643 [87] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：56.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:50,643 [87] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,643 [67] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,643 [93] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,753 [39] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：57.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:50,753 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：60.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:50,753 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,753 [39] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,768 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：56.jpg<span class="tabbed">已收</span>(10-25 08:40:44))
+2023-10-25 08:40:50,753 [73] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：59.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:50,768 [129] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：55.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:50,753 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：58.jpg<span class="tabbed">已收</span>(10-25 08:40:43))
+2023-10-25 08:40:50,800 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,800 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：60.jpg<span class="tabbed">已收</span>(10-25 08:40:48))
+2023-10-25 08:40:50,816 [118] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,800 [46] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,800 [129] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,784 [87] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：58.jpg<span class="tabbed">已收</span>(10-25 08:40:46))
+2023-10-25 08:40:50,847 [87] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,768 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：59.jpg<span class="tabbed">已收</span>(10-25 08:40:47))
+2023-10-25 08:40:50,800 [73] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,847 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:40:50,800 [127] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：57.jpg<span class="tabbed">已收</span>(10-25 08:40:45))
+2023-10-25 08:40:50,863 [127] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:40,411 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to BB(<span id="a9846cf7-d3a1-4d3e-8595-e20d26759aa2">AA：傳送檔案中，請稍後...(10-25 08:43:40)</span>)
+2023-10-25 08:43:40,426 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to CC(<span id="a9846cf7-d3a1-4d3e-8595-e20d26759aa2">AA：傳送檔案中，請稍後...(10-25 08:43:40)</span>)
+2023-10-25 08:43:40,442 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to DD(<span id="a9846cf7-d3a1-4d3e-8595-e20d26759aa2">AA：傳送檔案中，請稍後...(10-25 08:43:40)</span>)
+2023-10-25 08:43:40,442 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:40,457 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to <SPAN ID="A9846CF7-D3A1-4D3E-8595-E20D26759AA2">AA(<span id="a9846cf7-d3a1-4d3e-8595-e20d26759aa2">AA：傳送檔案中，請稍後...(10-25 08:43:40)</span><span class="tabbed">已讀</span>(10-25 08:43:40))
+2023-10-25 08:43:40,457 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:40,505 [80] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to <SPAN ID="A9846CF7-D3A1-4D3E-8595-E20D26759AA2">AA(<span id="a9846cf7-d3a1-4d3e-8595-e20d26759aa2">AA：傳送檔案中，請稍後...(10-25 08:43:40)</span><span class="tabbed">已讀</span>(10-25 08:43:40))
+2023-10-25 08:43:40,505 [80] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:40,552 [28] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to <SPAN ID="A9846CF7-D3A1-4D3E-8595-E20D26759AA2">AA(<span id="a9846cf7-d3a1-4d3e-8595-e20d26759aa2">AA：傳送檔案中，請稍後...(10-25 08:43:40)</span><span class="tabbed">已讀</span>(10-25 08:43:40))
+2023-10-25 08:43:40,552 [28] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:41,635 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(2000彭佳慧 - 不一定.mp3)
+2023-10-25 08:43:41,635 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2000彭佳慧 - 不一定.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:42,326 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(2006蔡依林 - 聽說愛情回來過(高音質).mp3)
+2023-10-25 08:43:42,326 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2006蔡依林 - 聽說愛情回來過(高音質).mp3) from KaazingChatWebApplication
+2023-10-25 08:43:42,797 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(Tifa Cloud ～FF7 Remake～.mp3)
+2023-10-25 08:43:42,797 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(Tifa Cloud ～FF7 Remake～.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:43,063 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：2000彭佳慧 - 不一定.mp3<span class="tabbed">已收</span>(10-25 08:43:42))
+2023-10-25 08:43:43,063 [70] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:43,193 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(五天幾年.mp3)
+2023-10-25 08:43:43,193 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(五天幾年.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:43,597 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(江美琪 - 親愛的 你怎麼不在身邊.mp3)
+2023-10-25 08:43:43,597 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(江美琪 - 親愛的 你怎麼不在身邊.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:44,146 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(彭佳慧 - 心之火.mp3)
+2023-10-25 08:43:44,146 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(彭佳慧 - 心之火.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:44,444 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(2000彭佳慧 - 不一定.mp3)
+2023-10-25 08:43:44,444 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2000彭佳慧 - 不一定.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:44,931 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(2006蔡依林 - 聽說愛情回來過(高音質).mp3)
+2023-10-25 08:43:44,931 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2006蔡依林 - 聽說愛情回來過(高音質).mp3) from KaazingChatWebApplication
+2023-10-25 08:43:45,119 [36] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：2006蔡依林 - 聽說愛情回來過(高音質).mp3<span class="tabbed">已收</span>(10-25 08:43:45))
+2023-10-25 08:43:45,119 [36] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:45,386 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(Tifa Cloud ～FF7 Remake～.mp3)
+2023-10-25 08:43:45,386 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(Tifa Cloud ～FF7 Remake～.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:45,700 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(五天幾年.mp3)
+2023-10-25 08:43:45,700 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(五天幾年.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:46,186 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：2000彭佳慧 - 不一定.mp3<span class="tabbed">已收</span>(10-25 08:43:46))
+2023-10-25 08:43:46,186 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:46,374 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(江美琪 - 親愛的 你怎麼不在身邊.mp3)
+2023-10-25 08:43:46,374 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(江美琪 - 親愛的 你怎麼不在身邊.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:46,901 [68] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：Tifa Cloud ～FF7 Remake～.mp3<span class="tabbed">已收</span>(10-25 08:43:46))
+2023-10-25 08:43:46,901 [68] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:47,101 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(彭佳慧 - 心之火.mp3)
+2023-10-25 08:43:47,101 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(彭佳慧 - 心之火.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:47,520 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(2000彭佳慧 - 不一定.mp3)
+2023-10-25 08:43:47,520 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2000彭佳慧 - 不一定.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:47,990 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(2006蔡依林 - 聽說愛情回來過(高音質).mp3)
+2023-10-25 08:43:48,003 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2006蔡依林 - 聽說愛情回來過(高音質).mp3) from KaazingChatWebApplication
+2023-10-25 08:43:48,476 [129] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：2006蔡依林 - 聽說愛情回來過(高音質).mp3<span class="tabbed">已收</span>(10-25 08:43:48))
+2023-10-25 08:43:48,476 [129] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:48,476 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(Tifa Cloud ～FF7 Remake～.mp3)
+2023-10-25 08:43:48,476 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(Tifa Cloud ～FF7 Remake～.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:48,665 [129] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：五天幾年.mp3<span class="tabbed">已收</span>(10-25 08:43:48))
+2023-10-25 08:43:48,680 [129] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:49,010 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(五天幾年.mp3)
+2023-10-25 08:43:49,010 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(五天幾年.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:49,450 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(江美琪 - 親愛的 你怎麼不在身邊.mp3)
+2023-10-25 08:43:49,450 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(江美琪 - 親愛的 你怎麼不在身邊.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:49,732 [19] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：2000彭佳慧 - 不一定.mp3<span class="tabbed">已收</span>(10-25 08:43:49))
+2023-10-25 08:43:49,732 [19] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:50,267 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(彭佳慧 - 心之火.mp3)
+2023-10-25 08:43:50,267 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(彭佳慧 - 心之火.mp3) from KaazingChatWebApplication
+2023-10-25 08:43:50,769 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：江美琪 - 親愛的 你怎麼不在身邊.mp3<span class="tabbed">已收</span>(10-25 08:43:50))
+2023-10-25 08:43:50,769 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:50,816 [28] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：Tifa Cloud ～FF7 Remake～.mp3<span class="tabbed">已收</span>(10-25 08:43:50))
+2023-10-25 08:43:50,816 [28] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:52,102 [121] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：2006蔡依林 - 聽說愛情回來過(高音質).mp3<span class="tabbed">已收</span>(10-25 08:43:51))
+2023-10-25 08:43:52,102 [121] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:52,291 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：五天幾年.mp3<span class="tabbed">已收</span>(10-25 08:43:52))
+2023-10-25 08:43:52,291 [48] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:53,687 [50] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：彭佳慧 - 心之火.mp3<span class="tabbed">已收</span>(10-25 08:43:53))
+2023-10-25 08:43:53,687 [50] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:53,876 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：Tifa Cloud ～FF7 Remake～.mp3<span class="tabbed">已收</span>(10-25 08:43:53))
+2023-10-25 08:43:53,876 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:53,891 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：江美琪 - 親愛的 你怎麼不在身邊.mp3<span class="tabbed">已收</span>(10-25 08:43:53))
+2023-10-25 08:43:53,891 [38] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:55,068 [36] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：五天幾年.mp3<span class="tabbed">已收</span>(10-25 08:43:54))
+2023-10-25 08:43:55,068 [36] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:56,354 [19] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：江美琪 - 親愛的 你怎麼不在身邊.mp3<span class="tabbed">已收</span>(10-25 08:43:56))
+2023-10-25 08:43:56,354 [19] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:56,354 [121] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：彭佳慧 - 心之火.mp3<span class="tabbed">已收</span>(10-25 08:43:56))
+2023-10-25 08:43:56,354 [121] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 08:43:58,192 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：彭佳慧 - 心之火.mp3<span class="tabbed">已收</span>(10-25 08:43:58))
+2023-10-25 08:43:58,192 [117] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:02:41,053 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to BB(AA：<pre class="defaultfont" style="display: inline;">how are you?</pre><span class="tabbed" id="abee1e53-895d-4d58-b2f8-02f08b668353">(10-25 17:02:40)</span>)
+2023-10-25 17:02:41,137 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to CC(AA：<pre class="defaultfont" style="display: inline;">how are you?</pre><span class="tabbed" id="abee1e53-895d-4d58-b2f8-02f08b668353">(10-25 17:02:40)</span>)
+2023-10-25 17:02:41,160 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to DD(AA：<pre class="defaultfont" style="display: inline;">how are you?</pre><span class="tabbed" id="abee1e53-895d-4d58-b2f8-02f08b668353">(10-25 17:02:40)</span>)
+2023-10-25 17:02:41,160 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">how are you?</pre><span class="tabbed" id="abee1e53-895d-4d58-b2f8-02f08b668353">(10-25 17:02:40)</span><span class="tabbed">已讀</span>(10-25 17:02:41))
+2023-10-25 17:02:41,160 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:02:41,160 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-25 17:02:41,255 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">how are you?</pre><span class="tabbed" id="abee1e53-895d-4d58-b2f8-02f08b668353">(10-25 17:02:40)</span><span class="tabbed">已讀</span>(10-25 17:02:41))
+2023-10-25 17:02:41,255 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:02:41,270 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">how are you?</pre><span class="tabbed" id="abee1e53-895d-4d58-b2f8-02f08b668353">(10-25 17:02:40)</span><span class="tabbed">已讀</span>(10-25 17:02:41))
+2023-10-25 17:02:41,270 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:37,500 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to BB(AA：<pre class="defaultfont" style="display: inline;">i have three files for you three guys!</pre><span class="tabbed" id="76ce4fc6-aa8e-49db-b092-8d506218c928">(10-25 17:03:37)</span>)
+2023-10-25 17:03:37,516 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to CC(AA：<pre class="defaultfont" style="display: inline;">i have three files for you three guys!</pre><span class="tabbed" id="76ce4fc6-aa8e-49db-b092-8d506218c928">(10-25 17:03:37)</span>)
+2023-10-25 17:03:37,531 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to DD(AA：<pre class="defaultfont" style="display: inline;">i have three files for you three guys!</pre><span class="tabbed" id="76ce4fc6-aa8e-49db-b092-8d506218c928">(10-25 17:03:37)</span>)
+2023-10-25 17:03:37,531 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-25 17:03:37,531 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">i have three files for you three guys!</pre><span class="tabbed" id="76ce4fc6-aa8e-49db-b092-8d506218c928">(10-25 17:03:37)</span><span class="tabbed">已讀</span>(10-25 17:03:37))
+2023-10-25 17:03:37,531 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:37,579 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">i have three files for you three guys!</pre><span class="tabbed" id="76ce4fc6-aa8e-49db-b092-8d506218c928">(10-25 17:03:37)</span><span class="tabbed">已讀</span>(10-25 17:03:37))
+2023-10-25 17:03:37,579 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:37,594 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">i have three files for you three guys!</pre><span class="tabbed" id="76ce4fc6-aa8e-49db-b092-8d506218c928">(10-25 17:03:37)</span><span class="tabbed">已讀</span>(10-25 17:03:37))
+2023-10-25 17:03:37,594 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:37,641 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to BB(<span id="22306f69-6d12-4a01-a221-3c09fdef523a">AA：傳送檔案中，請稍後...(10-25 17:03:37)</span>)
+2023-10-25 17:03:37,657 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to CC(<span id="22306f69-6d12-4a01-a221-3c09fdef523a">AA：傳送檔案中，請稍後...(10-25 17:03:37)</span>)
+2023-10-25 17:03:37,673 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to DD(<span id="22306f69-6d12-4a01-a221-3c09fdef523a">AA：傳送檔案中，請稍後...(10-25 17:03:37)</span>)
+2023-10-25 17:03:37,673 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:38,585 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to <SPAN ID="22306F69-6D12-4A01-A221-3C09FDEF523A">AA(<span id="22306f69-6d12-4a01-a221-3c09fdef523a">AA：傳送檔案中，請稍後...(10-25 17:03:37)</span><span class="tabbed">已讀</span>(10-25 17:03:37))
+2023-10-25 17:03:38,585 [13] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:38,585 [37] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to <SPAN ID="22306F69-6D12-4A01-A221-3C09FDEF523A">AA(<span id="22306f69-6d12-4a01-a221-3c09fdef523a">AA：傳送檔案中，請稍後...(10-25 17:03:37)</span><span class="tabbed">已讀</span>(10-25 17:03:37))
+2023-10-25 17:03:38,585 [37] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:38,585 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to <SPAN ID="22306F69-6D12-4A01-A221-3C09FDEF523A">AA(<span id="22306f69-6d12-4a01-a221-3c09fdef523a">AA：傳送檔案中，請稍後...(10-25 17:03:37)</span><span class="tabbed">已讀</span>(10-25 17:03:37))
+2023-10-25 17:03:38,585 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:39,631 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(2000彭佳慧 - 不一定.mp3)
+2023-10-25 17:03:39,631 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2000彭佳慧 - 不一定.mp3) from KaazingChatWebApplication
+2023-10-25 17:03:40,463 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(2006蔡依林 - 聽說愛情回來過(高音質).mp3)
+2023-10-25 17:03:40,463 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2006蔡依林 - 聽說愛情回來過(高音質).mp3) from KaazingChatWebApplication
+2023-10-25 17:03:40,778 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：2000彭佳慧 - 不一定.mp3<span class="tabbed">已收</span>(10-25 17:03:40))
+2023-10-25 17:03:40,778 [10] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:40,950 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(Tifa Cloud ～FF7 Remake～.mp3)
+2023-10-25 17:03:40,950 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(Tifa Cloud ～FF7 Remake～.mp3) from KaazingChatWebApplication
+2023-10-25 17:03:41,492 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(2000彭佳慧 - 不一定.mp3)
+2023-10-25 17:03:41,492 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2000彭佳慧 - 不一定.mp3) from KaazingChatWebApplication
+2023-10-25 17:03:42,230 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(2006蔡依林 - 聽說愛情回來過(高音質).mp3)
+2023-10-25 17:03:42,230 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2006蔡依林 - 聽說愛情回來過(高音質).mp3) from KaazingChatWebApplication
+2023-10-25 17:03:42,748 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(Tifa Cloud ～FF7 Remake～.mp3)
+2023-10-25 17:03:42,748 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(Tifa Cloud ～FF7 Remake～.mp3) from KaazingChatWebApplication
+2023-10-25 17:03:43,290 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(2000彭佳慧 - 不一定.mp3)
+2023-10-25 17:03:43,290 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2000彭佳慧 - 不一定.mp3) from KaazingChatWebApplication
+2023-10-25 17:03:43,604 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：2006蔡依林 - 聽說愛情回來過(高音質).mp3<span class="tabbed">已收</span>(10-25 17:03:43))
+2023-10-25 17:03:43,604 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:43,729 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：2000彭佳慧 - 不一定.mp3<span class="tabbed">已收</span>(10-25 17:03:43))
+2023-10-25 17:03:43,729 [16] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:43,964 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(2006蔡依林 - 聽說愛情回來過(高音質).mp3)
+2023-10-25 17:03:43,964 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(2006蔡依林 - 聽說愛情回來過(高音質).mp3) from KaazingChatWebApplication
+2023-10-25 17:03:44,545 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(Tifa Cloud ～FF7 Remake～.mp3)
+2023-10-25 17:03:44,545 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(Tifa Cloud ～FF7 Remake～.mp3) from KaazingChatWebApplication
+2023-10-25 17:03:45,935 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：2000彭佳慧 - 不一定.mp3<span class="tabbed">已收</span>(10-25 17:03:45))
+2023-10-25 17:03:45,935 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:46,468 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：Tifa Cloud ～FF7 Remake～.mp3<span class="tabbed">已收</span>(10-25 17:03:46))
+2023-10-25 17:03:46,487 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:46,876 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：2006蔡依林 - 聽說愛情回來過(高音質).mp3<span class="tabbed">已收</span>(10-25 17:03:46))
+2023-10-25 17:03:46,876 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:48,046 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：2006蔡依林 - 聽說愛情回來過(高音質).mp3<span class="tabbed">已收</span>(10-25 17:03:47))
+2023-10-25 17:03:48,046 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:48,673 [30] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：Tifa Cloud ～FF7 Remake～.mp3<span class="tabbed">已收</span>(10-25 17:03:48))
+2023-10-25 17:03:48,673 [30] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:03:49,515 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：Tifa Cloud ～FF7 Remake～.mp3<span class="tabbed">已收</span>(10-25 17:03:49))
+2023-10-25 17:03:49,515 [12] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:05:47,128 [29] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to BB(AA：<pre class="defaultfont" style="display: inline;">QQ</pre><span class="tabbed" id="a66f98d6-9345-4f5d-bd15-027e4f2bafd5">(10-25 17:05:47)</span>)
+2023-10-25 17:05:47,148 [29] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to CC(AA：<pre class="defaultfont" style="display: inline;">QQ</pre><span class="tabbed" id="a66f98d6-9345-4f5d-bd15-027e4f2bafd5">(10-25 17:05:47)</span>)
+2023-10-25 17:05:47,172 [29] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to DD(AA：<pre class="defaultfont" style="display: inline;">QQ</pre><span class="tabbed" id="a66f98d6-9345-4f5d-bd15-027e4f2bafd5">(10-25 17:05:47)</span>)
+2023-10-25 17:05:47,172 [29] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-25 17:05:47,172 [21] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">QQ</pre><span class="tabbed" id="a66f98d6-9345-4f5d-bd15-027e4f2bafd5">(10-25 17:05:47)</span><span class="tabbed">已讀</span>(10-25 17:05:47))
+2023-10-25 17:05:47,172 [21] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:05:47,222 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">QQ</pre><span class="tabbed" id="a66f98d6-9345-4f5d-bd15-027e4f2bafd5">(10-25 17:05:47)</span><span class="tabbed">已讀</span>(10-25 17:05:47))
+2023-10-25 17:05:47,231 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:05:47,281 [61] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">QQ</pre><span class="tabbed" id="a66f98d6-9345-4f5d-bd15-027e4f2bafd5">(10-25 17:05:47)</span><span class="tabbed">已讀</span>(10-25 17:05:47))
+2023-10-25 17:05:47,281 [61] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:08,226 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to BB(<span id="7c786074-5efc-4c7e-9a4b-0ec135d18aff">AA：傳送檔案中，請稍後...(10-25 17:06:08)</span>)
+2023-10-25 17:06:08,242 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to CC(<span id="7c786074-5efc-4c7e-9a4b-0ec135d18aff">AA：傳送檔案中，請稍後...(10-25 17:06:08)</span>)
+2023-10-25 17:06:08,258 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to DD(<span id="7c786074-5efc-4c7e-9a4b-0ec135d18aff">AA：傳送檔案中，請稍後...(10-25 17:06:08)</span>)
+2023-10-25 17:06:08,258 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:08,258 [29] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to <SPAN ID="7C786074-5EFC-4C7E-9A4B-0EC135D18AFF">AA(<span id="7c786074-5efc-4c7e-9a4b-0ec135d18aff">AA：傳送檔案中，請稍後...(10-25 17:06:08)</span><span class="tabbed">已讀</span>(10-25 17:06:08))
+2023-10-25 17:06:08,258 [29] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:08,298 [65] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to <SPAN ID="7C786074-5EFC-4C7E-9A4B-0EC135D18AFF">AA(<span id="7c786074-5efc-4c7e-9a4b-0ec135d18aff">AA：傳送檔案中，請稍後...(10-25 17:06:08)</span><span class="tabbed">已讀</span>(10-25 17:06:08))
+2023-10-25 17:06:08,298 [65] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:08,298 [56] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to <SPAN ID="7C786074-5EFC-4C7E-9A4B-0EC135D18AFF">AA(<span id="7c786074-5efc-4c7e-9a4b-0ec135d18aff">AA：傳送檔案中，請稍後...(10-25 17:06:08)</span><span class="tabbed">已讀</span>(10-25 17:06:08))
+2023-10-25 17:06:08,298 [56] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:09,251 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(F-網技工會退保通知函.pdf)
+2023-10-25 17:06:09,251 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-10-25 17:06:09,298 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(第一意外險100元-DM.pdf)
+2023-10-25 17:06:09,298 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-10-25 17:06:09,298 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(10-25 17:06:09))
+2023-10-25 17:06:09,304 [55] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:09,402 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(jaxb-runtime-2.2.11.jar)
+2023-10-25 17:06:09,402 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(jaxb-runtime-2.2.11.jar) from KaazingChatWebApplication
+2023-10-25 17:06:09,402 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：第一意外險100元-DM.pdf<span class="tabbed">已收</span>(10-25 17:06:09))
+2023-10-25 17:06:09,411 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:09,425 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(F-網技工會退保通知函.pdf)
+2023-10-25 17:06:09,429 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-10-25 17:06:09,464 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(第一意外險100元-DM.pdf)
+2023-10-25 17:06:09,464 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-10-25 17:06:09,481 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(10-25 17:06:09))
+2023-10-25 17:06:09,484 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:09,584 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to CC(jaxb-runtime-2.2.11.jar)
+2023-10-25 17:06:09,587 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(jaxb-runtime-2.2.11.jar) from KaazingChatWebApplication
+2023-10-25 17:06:09,584 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：第一意外險100元-DM.pdf<span class="tabbed">已收</span>(10-25 17:06:09))
+2023-10-25 17:06:09,587 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:09,632 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(F-網技工會退保通知函.pdf)
+2023-10-25 17:06:09,632 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-10-25 17:06:10,289 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(第一意外險100元-DM.pdf)
+2023-10-25 17:06:10,289 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-10-25 17:06:10,477 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to DD(jaxb-runtime-2.2.11.jar)
+2023-10-25 17:06:10,477 [64] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(jaxb-runtime-2.2.11.jar) from KaazingChatWebApplication
+2023-10-25 17:06:12,192 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(10-25 17:06:09))
+2023-10-25 17:06:12,192 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:12,192 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：第一意外險100元-DM.pdf<span class="tabbed">已收</span>(10-25 17:06:09))
+2023-10-25 17:06:12,192 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:12,192 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to AA(CC：jaxb-runtime-2.2.11.jar<span class="tabbed">已收</span>(10-25 17:06:09))
+2023-10-25 17:06:12,192 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:12,192 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：jaxb-runtime-2.2.11.jar<span class="tabbed">已收</span>(10-25 17:06:09))
+2023-10-25 17:06:12,192 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:06:12,192 [50] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to AA(DD：jaxb-runtime-2.2.11.jar<span class="tabbed">已收</span>(10-25 17:06:10))
+2023-10-25 17:06:12,192 [50] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:32,861 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to AA(<span id="7fd6c062-eaae-4cc4-8fd4-3f43382944b9">BB：傳送檔案中，請稍後...(10-25 17:07:32)</span>)
+2023-10-25 17:07:32,874 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to CC(<span id="7fd6c062-eaae-4cc4-8fd4-3f43382944b9">BB：傳送檔案中，請稍後...(10-25 17:07:32)</span>)
+2023-10-25 17:07:32,887 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to DD(<span id="7fd6c062-eaae-4cc4-8fd4-3f43382944b9">BB：傳送檔案中，請稍後...(10-25 17:07:32)</span>)
+2023-10-25 17:07:32,887 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:32,927 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to <SPAN ID="7FD6C062-EAAE-4CC4-8FD4-3F43382944B9">BB(<span id="7fd6c062-eaae-4cc4-8fd4-3f43382944b9">BB：傳送檔案中，請稍後...(10-25 17:07:32)</span><span class="tabbed">已讀</span>(10-25 17:07:32))
+2023-10-25 17:07:32,927 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:33,863 [63] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to <SPAN ID="7FD6C062-EAAE-4CC4-8FD4-3F43382944B9">BB(<span id="7fd6c062-eaae-4cc4-8fd4-3f43382944b9">BB：傳送檔案中，請稍後...(10-25 17:07:32)</span><span class="tabbed">已讀</span>(10-25 17:07:32))
+2023-10-25 17:07:33,863 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to <SPAN ID="7FD6C062-EAAE-4CC4-8FD4-3F43382944B9">BB(<span id="7fd6c062-eaae-4cc4-8fd4-3f43382944b9">BB：傳送檔案中，請稍後...(10-25 17:07:32)</span><span class="tabbed">已讀</span>(10-25 17:07:32))
+2023-10-25 17:07:33,863 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:33,863 [63] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:34,108 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(五天幾年.mp3)
+2023-10-25 17:07:34,108 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(五天幾年.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:34,408 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(江美琪 - 親愛的 你怎麼不在身邊.mp3)
+2023-10-25 17:07:34,408 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(江美琪 - 親愛的 你怎麼不在身邊.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:34,621 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to AA(AA：五天幾年.mp3<span class="tabbed">已收</span>(10-25 17:07:34))
+2023-10-25 17:07:34,621 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:34,935 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(彭佳慧 - 心之火.mp3)
+2023-10-25 17:07:34,935 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(彭佳慧 - 心之火.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:35,233 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(五天幾年.mp3)
+2023-10-25 17:07:35,233 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(五天幾年.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:35,319 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to AA(AA：江美琪 - 親愛的 你怎麼不在身邊.mp3<span class="tabbed">已收</span>(10-25 17:07:35))
+2023-10-25 17:07:35,323 [53] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:35,676 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(江美琪 - 親愛的 你怎麼不在身邊.mp3)
+2023-10-25 17:07:35,676 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(江美琪 - 親愛的 你怎麼不在身邊.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:36,375 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(彭佳慧 - 心之火.mp3)
+2023-10-25 17:07:36,375 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(彭佳慧 - 心之火.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:36,700 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(五天幾年.mp3)
+2023-10-25 17:07:36,700 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(五天幾年.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:37,126 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(江美琪 - 親愛的 你怎麼不在身邊.mp3)
+2023-10-25 17:07:37,132 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(江美琪 - 親愛的 你怎麼不在身邊.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:37,132 [77] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：五天幾年.mp3<span class="tabbed">已收</span>(10-25 17:07:37))
+2023-10-25 17:07:37,137 [77] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:37,729 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(彭佳慧 - 心之火.mp3)
+2023-10-25 17:07:37,745 [5] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(彭佳慧 - 心之火.mp3) from KaazingChatWebApplication
+2023-10-25 17:07:38,262 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：五天幾年.mp3<span class="tabbed">已收</span>(10-25 17:07:38))
+2023-10-25 17:07:38,262 [52] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:38,890 [77] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：江美琪 - 親愛的 你怎麼不在身邊.mp3<span class="tabbed">已收</span>(10-25 17:07:38))
+2023-10-25 17:07:38,890 [77] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:39,714 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：江美琪 - 親愛的 你怎麼不在身邊.mp3<span class="tabbed">已收</span>(10-25 17:07:39))
+2023-10-25 17:07:39,714 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:41,590 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：彭佳慧 - 心之火.mp3<span class="tabbed">已收</span>(10-25 17:07:41))
+2023-10-25 17:07:41,590 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:07:42,221 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：彭佳慧 - 心之火.mp3<span class="tabbed">已收</span>(10-25 17:07:42))
+2023-10-25 17:07:42,221 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:09:58,149 [73] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to AA(<span id="d19170a3-8d05-456e-acd6-7d9ed0e53438">BB：傳送檔案中，請稍後...(10-25 17:09:58)</span>)
+2023-10-25 17:09:58,160 [73] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to CC(<span id="d19170a3-8d05-456e-acd6-7d9ed0e53438">BB：傳送檔案中，請稍後...(10-25 17:09:58)</span>)
+2023-10-25 17:09:58,176 [73] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to DD(<span id="d19170a3-8d05-456e-acd6-7d9ed0e53438">BB：傳送檔案中，請稍後...(10-25 17:09:58)</span>)
+2023-10-25 17:09:58,176 [73] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:09:58,230 [77] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to <SPAN ID="D19170A3-8D05-456E-ACD6-7D9ED0E53438">BB(<span id="d19170a3-8d05-456e-acd6-7d9ed0e53438">BB：傳送檔案中，請稍後...(10-25 17:09:58)</span><span class="tabbed">已讀</span>(10-25 17:09:58))
+2023-10-25 17:09:58,230 [77] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:09:58,245 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to <SPAN ID="D19170A3-8D05-456E-ACD6-7D9ED0E53438">BB(<span id="d19170a3-8d05-456e-acd6-7d9ed0e53438">BB：傳送檔案中，請稍後...(10-25 17:09:58)</span><span class="tabbed">已讀</span>(10-25 17:09:58))
+2023-10-25 17:09:58,245 [60] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:09:58,245 [71] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(F-網技工會退保通知函.pdf)
+2023-10-25 17:09:58,245 [71] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-10-25 17:09:58,261 [83] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to <SPAN ID="D19170A3-8D05-456E-ACD6-7D9ED0E53438">BB(<span id="d19170a3-8d05-456e-acd6-7d9ed0e53438">BB：傳送檔案中，請稍後...(10-25 17:09:58)</span><span class="tabbed">已讀</span>(10-25 17:09:58))
+2023-10-25 17:09:58,261 [83] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:09:58,261 [71] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to CC(F-網技工會退保通知函.pdf)
+2023-10-25 17:09:58,261 [71] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-10-25 17:09:58,312 [71] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to DD(F-網技工會退保通知函.pdf)
+2023-10-25 17:09:58,312 [71] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-10-25 17:09:58,328 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - CC is sending a readed message to BB(CC：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(10-25 17:09:58))
+2023-10-25 17:09:58,328 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:09:58,375 [84] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - DD is sending a readed message to BB(DD：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(10-25 17:09:58))
+2023-10-25 17:09:58,375 [84] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:09:58,469 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to AA(AA：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(10-25 17:09:58))
+2023-10-25 17:09:58,469 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:12:59,561 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a message to AA(BB：<pre class="defaultfont" style="display: inline;">csa</pre><span class="tabbed" id="9a5e0662-fe22-4d22-8de0-2c7272840e9e">(10-25 17:12:59)</span>)
+2023-10-25 17:12:59,561 [8] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-25 17:12:59,737 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(BB：<pre class="defaultfont" style="display: inline;">csa</pre><span class="tabbed" id="9a5e0662-fe22-4d22-8de0-2c7272840e9e">(10-25 17:12:59)</span><span class="tabbed">已讀</span>(10-25 17:12:59))
+2023-10-25 17:12:59,737 [58] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:03,601 [79] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a message to BB(AA：<pre class="defaultfont" style="display: inline;">cw</pre><span class="tabbed" id="9765238d-2f90-49b3-86f1-eba9d042d744">(10-25 17:13:03)</span>)
+2023-10-25 17:13:03,601 [79] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendTalkMessageToServer from KaazingChatWebApplication(Count:1)
+2023-10-25 17:13:03,639 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(AA：<pre class="defaultfont" style="display: inline;">cw</pre><span class="tabbed" id="9765238d-2f90-49b3-86f1-eba9d042d744">(10-25 17:13:03)</span><span class="tabbed">已讀</span>(10-25 17:13:03))
+2023-10-25 17:13:03,641 [49] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:12,287 [77] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file message to AA(<span id="f49c7063-2e83-48df-a0a1-421d3bc7ed8b">BB：傳送檔案中，請稍後...(10-25 17:13:12)</span>)
+2023-10-25 17:13:12,287 [77] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:12,385 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(F-網技工會退保通知函.pdf)
+2023-10-25 17:13:12,385 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-10-25 17:13:12,424 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(HR-Certificate-03離職證明書 -  李乃興_202304.pdf)
+2023-10-25 17:13:12,424 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(HR-Certificate-03離職證明書 -  李乃興_202304.pdf) from KaazingChatWebApplication
+2023-10-25 17:13:12,472 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(<span id="f49c7063-2e83-48df-a0a1-421d3bc7ed8b">BB：傳送檔案中，請稍後...(10-25 17:13:12)</span><span class="tabbed">已讀</span>(10-25 17:13:12))
+2023-10-25 17:13:12,473 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:12,480 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a file to AA(第一意外險100元-DM.pdf)
+2023-10-25 17:13:12,480 [91] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(第一意外險100元-DM.pdf) from KaazingChatWebApplication
+2023-10-25 17:13:12,644 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：第一意外險100元-DM.pdf<span class="tabbed">已收</span>(10-25 17:13:12))
+2023-10-25 17:13:12,644 [7] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:13,463 [78] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：HR-Certificate-03離職證明書 -  李乃興_202304.pdf<span class="tabbed">已收</span>(10-25 17:13:12))
+2023-10-25 17:13:13,463 [78] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:13,463 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a readed message to BB(AA：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(10-25 17:13:12))
+2023-10-25 17:13:13,463 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:32,322 [73] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file message to BB(<span id="3eb30b3e-e6bd-47cb-a59d-e7e43f34d289">AA：傳送檔案中，請稍後...(10-25 17:13:32)</span>)
+2023-10-25 17:13:32,324 [73] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:32,370 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to <SPAN ID="3EB30B3E-E6BD-47CB-A59D-E7E43F34D289">AA(<span id="3eb30b3e-e6bd-47cb-a59d-e7e43f34d289">AA：傳送檔案中，請稍後...(10-25 17:13:32)</span><span class="tabbed">已讀</span>(10-25 17:13:32))
+2023-10-25 17:13:32,372 [18] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
+2023-10-25 17:13:33,405 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - AA is sending a file to BB(F-網技工會退保通知函.pdf)
+2023-10-25 17:13:33,405 [11] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - sending a file(F-網技工會退保通知函.pdf) from KaazingChatWebApplication
+2023-10-25 17:13:33,584 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - BB is sending a readed message to AA(BB：F-網技工會退保通知函.pdf<span class="tabbed">已收</span>(10-25 17:13:33))
+2023-10-25 17:13:33,584 [17] INFO  KaazingTestWebApplication.Controllers.WebChatController [(null)] - SendReadMessageToServer from KaazingChatWebApplication
