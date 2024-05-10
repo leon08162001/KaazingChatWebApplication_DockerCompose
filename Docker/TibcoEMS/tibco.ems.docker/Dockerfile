@@ -1,10 +1,24 @@
-FROM centos:7.7.1908
+#FROM centos:7.7.1908
+FROM centos:8.4.2105
 
 MAINTAINER Ilya Lysenko <lysenko.ilya@gmail.com>
 
 RUN mkdir -p /usr/share/man/man1
+
+# for centos 7
+#RUN yum upgrade -y && \
+#    yum install bc wget unzip java-11 -y
+# for centos 7
+
+# for centos 8
+RUN cd /etc/yum.repos.d/
+RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+
 RUN yum upgrade -y && \
-    yum install bc wget unzip openjdk-11-jdk curl lib32z1 bc lib32ncurses6 lib32stdc++6 lib32z1 lib32z1-dev -y
+    yum install bc wget unzip java-11 -y
+# for centos 8
+
 RUN groupadd -r tibgrp -g 433 && \
     useradd -u 431 -r -m -g tibgrp -d /home/tibusr -s /bin/bash -c "TIBCO Docker image user" tibusr && \
     chown -R tibusr:tibgrp /home/tibusr && \

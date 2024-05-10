@@ -1,10 +1,16 @@
 # Pull base image
-#FROM openjdk:8-jre
-FROM centos:7.7.1908
-
-RUN yum install -y java-11
+#FROM centos:centos7.9.2009
+FROM centos:8.4.2105
 
 MAINTAINER Kaazing Docker Maintainers, contact via github issues: https://github.com/kaazing/gateway.docker/issues
+
+# for centos 8
+RUN cd /etc/yum.repos.d/
+RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+# for centos 8
+
+RUN yum install -y java-11
 
 # pub   2048R/385B4D59 2015-07-01 [expires: 2017-12-08]
 #       Key fingerprint = F8F4 B66E 022A 4668 E532  DAC0 3AA0 B82C 385B 4D59

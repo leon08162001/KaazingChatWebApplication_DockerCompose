@@ -11,6 +11,7 @@ services:
     isolation: hyperv
     environment:
       - TZ=Asia/Taipei
+    restart: always
     ports:
       - "80:80"
       - "1443:1443"
