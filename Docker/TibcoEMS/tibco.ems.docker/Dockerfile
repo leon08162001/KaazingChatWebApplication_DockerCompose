@@ -1,5 +1,6 @@
 #FROM centos:7.7.1908
-FROM centos:8.4.2105
+#FROM centos:8.4.2105
+FROM redhat/ubi8:8.8-1067.1696517599
 
 MAINTAINER Ilya Lysenko <lysenko.ilya@gmail.com>
 
@@ -12,11 +13,11 @@ RUN mkdir -p /usr/share/man/man1
 
 # for centos 8
 RUN cd /etc/yum.repos.d/
-RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
-RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+#RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+#RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
 
-RUN yum upgrade -y && \
-    yum install bc wget unzip java-11 -y
+#RUN yum upgrade -y && \
+ RUN yum install bc wget unzip java-11 -y
 # for centos 8
 
 RUN groupadd -r tibgrp -g 433 && \

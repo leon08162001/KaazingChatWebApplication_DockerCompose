@@ -1,13 +1,14 @@
 # Pull base image
 #FROM centos:centos7.9.2009
-FROM centos:8.4.2105
+#FROM centos:8.4.2105
+FROM redhat/ubi8:8.8-1067.1696517599
 
 MAINTAINER Kaazing Docker Maintainers, contact via github issues: https://github.com/kaazing/gateway.docker/issues
 
 # for centos 8
 RUN cd /etc/yum.repos.d/
-RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
-RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+#RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+#RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
 # for centos 8
 
 RUN yum install -y java-11

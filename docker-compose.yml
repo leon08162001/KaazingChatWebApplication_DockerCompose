@@ -8,6 +8,7 @@ services:
     environment:
       - SA_PASSWORD=1qaz!QAZ
       - ACCEPT_EULA=Y
+    restart: always
     volumes:
       - "./DockerVolumes/mssql/data/:/var/opt/mssql/data/"
       - "./DockerVolumes/mssql/log/:/var/opt/mssql/log/"
@@ -26,6 +27,7 @@ services:
     hostname: leonpc.asuscomm.com
     environment:
       - TZ=Asia/Taipei
+    restart: always
     network_mode: bridge
     depends_on:
       - sqlserver
@@ -42,8 +44,11 @@ services:
     hostname: leonpc1.asuscomm.com
     environment:
       - TZ=Asia/Taipei
+    volumes:
+      - "./DockerVolumes/kaazing-gateway/bin/:/kaazing-gateway/bin/"
     network_mode: bridge
-    restart: on-failure:5
+    #restart: on-failure:5
+    restart: always
     depends_on:
       - tibcoems
     ports:
@@ -58,11 +63,10 @@ services:
     container_name: kaazingchatapi
     environment:
       - TZ=Asia/Taipei
+    restart: always
     network_mode: bridge
     depends_on:
       - kaazing-gateway
     ports:
       - "8080:8080"
       - "8081:8081"
-
-
